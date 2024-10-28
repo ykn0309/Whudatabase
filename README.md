@@ -53,6 +53,8 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
 
 3. 输入项目信息，Interface选择"SwiftUI"，Language选择“Swift”。
 
+    > 如果使用OC开发，选择”Storyboard“和”Objective-C“。
+
     ![输入项目信息](img/image3.png)
 
 4. 选择项目保存路径后进入项目。
@@ -82,10 +84,14 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
     ![alt text](img/image9.png)
 
 4. 在dependents目录右键选择“New File...” -> “Source” -> “Header File”，添加桥接头文件bridge.h。
+    
+    > 如果使用OC开发，不需要引入使用桥接头文件，直接在用到sqlite C API文件中添加``#import "sqlite3.h"``。
 
     ![alt text](img/image7.png)
 
 5. 在bridge.h中添加：
+
+    > OC开发不需要桥接头文件，略过这一步。
 
     ``` c
     #import "sqlite3.h"
@@ -104,6 +110,8 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
     ![alt text](img/image11.png)
 
 * “Swift Compiler - General”：设置“Objective-C Bridging Header”为桥接头文件的路径。
+
+    > OC开发略过这一步。
 
     ![alt text](img/image12.png)
 
@@ -137,13 +145,25 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
 
 1. 创建数据库指针。
 
+    Swift：
+
     ``` swift
     var db: OpaquePointer?
     ```
 
     > OpaquePointer 是 Swift 中用于表示指向 C 语言中不透明数据结构的指针类型。
 
+    OC：
+
+    ``` objc
+    sqlite3 *db;
+    ```
+
 2. 获取数据库文件的路径。
+
+    > **注意：下面获取数据库文件路径的代码仅供参考，实际开发请按需修改。**
+
+    Swift：
 
     ``` swift
     let fileURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("whudatabase.db")
@@ -151,7 +171,24 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
 
     这段代码会得到数据库文件的路径fileURL。在这里，我们将数据库文件命名为“whudatabase.db”。
 
+    OC：
+
+    ``` objc
+    NSError *error = nil;
+    NSURL *documentsDirectory = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:&error];
+
+    if (error) {
+        // 处理错误
+        NSLog(@"Error getting documents directory: %@", error);
+    } else {
+        NSURL *fileURL = [documentsDirectory URLByAppendingPathComponent:@"whudatabase.db"];
+        // 使用 fileURL
+    }
+    ```
+
 3. 打开数据库。
+
+    Swift：
 
     ``` swift
     if sqlite3_open(fileURL.path, &db) != SQLITE_OK {
@@ -161,9 +198,19 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
 
     这段代码调用SQLite的API ``sqlite3_open()`` 来打开数据库。
 
+    OC：
+
+    ``` objc
+    if (sqlite3_open([fileURL.path UTF8String], &db) != SQLITE_OK) {
+        result = @"Unable to open database.";
+    }
+    ```
+
 #### 加载扩展
 
 1. 启用SQLite的动态加载扩展功能。
+
+    Swift：
 
     ``` swift
     if sqlite3_enable_load_extension(db, 1) != SQLITE_OK {
@@ -171,11 +218,29 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
     }
     ```
 
+    OC：
+    ``` objc
+    if (sqlite3_enable_load_extension(db, 1) != SQLITE_OK) {
+        NSLog(@"Failed to enable extension loading: %s", sqlite3_errmsg(db));
+    }
+    ```
+
 2. 加载需要的扩展，以加载mod_spatialite.dylib为例：
+
+    Swift：
 
     ``` swift
     if sqlite3_load_extension(db, Bundle.main.path(forResource: "mod_spatialite", ofType: "dylib"), nil, nil) != SQLITE_OK {
         print("Error loading spatialite extension")
+    }
+    ```
+
+    OC：
+
+    ``` objc
+    NSString *extensionPath = [[NSBundle mainBundle] pathForResource:@"mod_spatialite" ofType:@"dylib"];
+    if (sqlite3_load_extension(db, [extensionPath UTF8String], NULL, NULL) != SQLITE_OK) {
+        NSLog(@"Failed to load extension.");
     }
     ```
 
@@ -188,6 +253,8 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
     在SQLite中，需要先调用``sqlite3_prepare_v2()``来准备SQL语句。
 
     以创建表为例：
+
+    Swift：
 
     ```swift
     // 定义SQL语句
@@ -205,12 +272,27 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
     var rc = sqlite3_prepare_v2(db, sql, -1, &statement, nil)
     ```
 
+    OC：
+
+    ``` objc
+    // 定义SQL语句
+    const char *sql = "CREATE TABLE test (id INTEGER, name TEXT);";
+
+    // 定义statement指针
+    sqlite3_stmt *statement;
+
+    // 使用sqlite3_prepare_v2来准备SQL语句
+    int rc = sqlite3_prepare_v2(db, sql, -1, &statement, NULL);
+    ```
+
 2. 执行查询并解析查询结果。
 
     在准备好查询语句后，需要调用``sqlite3_step()``来执行查询和``sqlite3_column()``来解析查询结果。
 
     > 需要注意的是，``sqlite3_column()``并不是一个函数，而是一类函数。
     ``sqlite3_column_int()``用来解析整数值；``sqlite3_column_double()``用来获取浮点值；``sqlite3_column_text()``用来获取文本值......
+
+    Swift：
 
     ``` swift
     // 首先判断sqlite3_prepare_v2()的返回值是否是成功
@@ -227,9 +309,19 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
     }
     ```
 
+    OC：
+
+    ``` objc
+    if (rc != SQLITE_OK) {
+        NSLog(@"Failed to prepare Query.");
+    }
+    ```
+
     > 判断``sqlite3_step()``是否成功通常使用两个值来判断：``SQLITE_ROW``和``SQLITE_DONE``。``SQLITE_DONE``表示SQL语句执行完毕，没有更多的结果行可供返回。通常在执行``INSERT``、``UPDATE``或``DELETE`` 等语句时会返回这个状态，表示操作成功完成。``SQLITE_ROW``表示当前行的数据可供读取。当你执行 ``SELECT`` 查询时，若有结果行``sqlite3_step``会返回``SQLITE_ROW``，此时可以使用``sqlite3_column`` 系列函数来提取该行的数据。
     
     因为前面的例子是创建表，所以使用``SQLITE_DONE``，也不需要解析查询结果。下面再举一个``SELECT``操作的例子来演示解析查询结果。
+
+    Swift：
 
     ``` swift
     var sql = """
@@ -245,17 +337,43 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
     }
     ```
 
+    OC：
+
+    ``` objc
+    const char *sql = "select * from test;";
+    sqlite3_stmt *statement;
+    if (sqlite3_prepare_v2(db, sql, -1, &statement, NULL) == SQLITE_OK) {
+        while (sqlite3_step(statement) == SQLITE_ROW) {
+            int id = sqlite3_column_int(statement, 0);
+            const char *nameText = (const char *)sqlite3_column_text(statement, 1);
+            NSString *name = [NSString stringWithUTF8String:nameText];
+            // 根据程序需要处理id和name
+        }
+    } 
+    ```
+
 3. 释放查询语句。
 
     在执行完查询后，一定要释放查询语句。
 
-      ``` swift
-      sqlite3_finalize(statement)
-      ```
+    Swift：
+
+    ``` swift
+    sqlite3_finalize(statement)
+    ```
+
+    OC：
+
+    ``` objc
+    sqlite3_finalize(statement);
+    ```
+
 
 #### 真实案例
 
 下面的代码实现了一个简单的Whudatabase Shell，并且导入了sqlite-vec和spatialite两个扩展，使Whudatabase支持向量和图两种数据。
+
+**Swift：**
 
 在完成前面创建项目、配置项目后，将下面的代码复制到``ContentView.swift``中即可。
 
@@ -376,6 +494,138 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+```
+
+**OC：**
+
+按照下面代码修改``ViewController.h``和``ViewController.m``的代码。
+
+还需要在Main.storyboard中自行添加输入框、输出框、按钮，并和对应代码绑定。
+
+![alt text](img/image17.png)
+
+``` objc
+// ViewController.h
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *sqlInputField;
+@property (weak, nonatomic) IBOutlet UITextView *resultTextView;
+
+- (IBAction)runQuery:(id)sender;
+
+@end
+
+```
+
+``` objc
+// ViewController.m
+
+#import "ViewController.h"
+#import "sqlite3.h"
+
+@interface ViewController () {
+    sqlite3 *db;
+}
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    NSError *error = nil;
+    NSURL *documentsDirectory = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:&error];
+
+    if (error) {
+        // 处理错误
+        NSLog(@"Error getting documents directory: %@", error);
+    } else {
+        NSURL *fileURL = [documentsDirectory URLByAppendingPathComponent:@"whudatabase.db"];
+        // 打开数据库
+        if (sqlite3_open([fileURL.path UTF8String], &db) != SQLITE_OK) {
+            NSLog(@"Failed to open database");
+            return;
+        }
+    }
+    
+    // 加载扩展
+    NSString *extensionPath = [[NSBundle mainBundle] pathForResource:@"mod_spatialite" ofType:@"dylib"];
+    if (![self loadSQLiteExtension:extensionPath]) {
+        return;
+    }
+    extensionPath = [[NSBundle mainBundle] pathForResource:@"vec0" ofType:@"dylib"];
+    if (![self loadSQLiteExtension:extensionPath]) {
+        return;
+    }
+}
+
+- (BOOL)loadSQLiteExtension:(NSString *)extensionPath {
+    if (sqlite3_enable_load_extension(db, 1) != SQLITE_OK) {
+        NSLog(@"Failed to enable extension loading: %s", sqlite3_errmsg(db));
+        return NO;
+    }
+
+    if (sqlite3_load_extension(db, [extensionPath UTF8String], NULL, NULL) != SQLITE_OK) {
+        NSLog(@"Failed to load extension.");
+        return NO;
+    }
+
+    NSLog(@"Extension loaded successfully");
+    return YES;
+}
+
+- (IBAction)runQuery:(id)sender {
+    NSString *query = self.sqlInputField.text;
+    NSArray *queries = [query componentsSeparatedByString:@";"]; // 以分号分隔多个查询
+    NSMutableString *finalResult = [NSMutableString string];
+
+    for (NSString *sql in queries) {
+        NSString *trimmedSQL = [sql stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+        if (trimmedSQL.length > 0) {
+            NSString *result = [self executeQuery:trimmedSQL]; // 调用 executeQuery 并获取结果
+            [finalResult appendString:result]; // 将每个结果累加
+        }
+    }
+
+    self.resultTextView.text = finalResult; // 更新文本视图
+}
+
+
+- (NSString *)executeQuery:(NSString *)sql {
+    sqlite3_stmt *statement;
+    NSMutableString *result = [NSMutableString string];
+
+    if (sqlite3_prepare_v2(db, [sql UTF8String], -1, &statement, NULL) == SQLITE_OK) {
+        while (sqlite3_step(statement) == SQLITE_ROW) {
+            int columnCount = sqlite3_column_count(statement);
+            for (int i = 0; i < columnCount; i++) {
+                const char *columnText = (const char *)sqlite3_column_text(statement, i);
+                if (columnText) {
+                    [result appendFormat:@"%s\t", columnText];
+                }
+            }
+            [result appendString:@"\n"];
+        }
+        [result appendString:@"OK\n"];
+    } else {
+        NSLog(@"Failed to prepare query: %s", sqlite3_errmsg(db));
+        [result appendFormat:@"Error: %s\n", sqlite3_errmsg(db)];
+    }
+
+    sqlite3_finalize(statement);
+    return result; // 返回查询结果
+}
+
+
+- (void)dealloc {
+    sqlite3_close(db);
+}
+
+@end
+
 ```
 
 ## Whudatabase进阶
@@ -908,14 +1158,14 @@ create table edge(
 );
 
 -- 插入边
-insert into edge values (1, 1, 2, 1, 'one');
-insert into edge values (2, 2, 3, 1, 'two');
-insert into edge values (3, 3, 4, 1, 'three');
-insert into edge values (4, 1, 5, 1, 'four');
-insert into edge values (5, 5, 6, 1, 'five');
-insert into edge values (6, 6, 7, 1, 'six');
-insert into edge values (7, 7, 4, 1, 'seven');
-insert into edge values (8, 5, 4, 1, 'eight');
+insert into edge values (1, 1, 2, 1, 'one'),
+                        (2, 2, 3, 1, 'two'),
+                        (3, 3, 4, 1, 'three'),
+                        (4, 1, 5, 1, 'four'),
+                        (5, 5, 6, 1, 'five'),
+                        (6, 6, 7, 1, 'six'),
+                        (7, 7, 4, 1, 'seven'),
+                        (8, 5, 4, 1, 'eight');
 
 -- 计算最短路径
 select CreateRouting('_edge_data', '_edge', 'edge', 'node_from', 'node_to', NULL, 'cost', 'name', 0, 1);
