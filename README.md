@@ -85,7 +85,7 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
 
 4. 在dependents目录右键选择“New File...” -> “Source” -> “Header File”，添加桥接头文件bridge.h。
     
-    > 如果使用OC开发，不需要引入使用桥接头文件，直接在用到sqlite C API文件中添加``#import "sqlite3.h"``。
+    > 如果使用OC开发，不需要引入使用桥接头文件，直接在用到SQLite C API的文件中添加``#import "sqlite3.h"``。
 
     ![alt text](img/image7.png)
 
@@ -340,7 +340,7 @@ WhuDatabase-iOS基于SQLite实现。SQLite是一个开源的关系型数据库�
     OC：
 
     ``` objc
-    const char *sql = "select * from test;";
+    const char *sql = "SELECT * FROM test;";
     sqlite3_stmt *statement;
     if (sqlite3_prepare_v2(db, sql, -1, &statement, NULL) == SQLITE_OK) {
         while (sqlite3_step(statement) == SQLITE_ROW) {
