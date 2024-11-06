@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextSQL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp"
+        android:hint="请输入SQL建表，插入，更新，删除语句" />
+
+    <Button
+        android:id="@+id/buttonExecute1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Execute SQL" />
+
+    <EditText
+        android:id="@+id/editTextSQL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp"
+        android:hint="请输入SQL查询语句" />
+
+    <Button
+        android:id="@+id/buttonExecute2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Execute SQL" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </ScrollView>
+
+</LinearLayout>
