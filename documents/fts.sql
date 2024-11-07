@@ -1,0 +1,10 @@
+INSERT INTO articles (title, content) VALUES ('Door him meet others visit of message benefit.', 'Her world detail indeed reflect a century shake others never radio meeting detail reason see.');
+INSERT INTO articles (title, content) VALUES ('Not catch hotel bag.', 'Seven focus allow suggest science management pattern need beautiful federal Mrs data instead.');
+INSERT INTO articles (title, content) VALUES ('College security decade member garden whatever unit.', 'Former money fear medical college serve get star himself whom on bring community out once environment.');
+INSERT INTO articles (title, content) VALUES ('Five up poor article off find thought second.', 'Where language condition worker enough keep certain reason attorney air daughter start laugh character time north recently until no.');
+INSERT INTO articles (title, content) VALUES ('Experience mind capital newspaper cold way behind.', 'Out court require pressure effect loss from note great green food south military after me next name rock high community visit successful role.');
+INSERT INTO articles (title, content) VALUES ('Between director know manager.', 'Believe under instead she model main would area care eye detail third specific yes guess tonight benefit though.');
+INSERT INTO articles (title, content) VALUES ('Thus power rate writer manage if.', 'Possible lead candidate possible you body after factor east Congress herself television official boy laugh break.');
+INSERT INTO articles (title, content) VALUES ('Occur behind present foreign because despite campaign.', 'If pattern discover fight bad firm fish minute marriage available computer wonder.');
+INSERT INTO articles (title, content) VALUES ('Son usually pressure compare purpose.', 'Recent help tough wear control think five two study describe accept exactly agree officer.');
+INSERT INTO articles (title, content) VALUES ('Reveal budget lot role old house.', 'Performance why whose over food put front until spend green someone hear issue health art local a.');
