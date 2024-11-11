@@ -21,9 +21,9 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
 
 ## WhuDatabase-Android重要组件
 
-* sqlite3.h：SQLite的头文件。
+* android-whu-2.3.aar：SQLite的扩展包。
 
-* android-whu-2.0.1.aar：SQLite的扩展包。
+* libvec0.so：可以加载到aar包中的向量扩展包。
 
 ## 快速上手
 
@@ -61,7 +61,7 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
 
     ![alt text](img/image7.png)
 
-2. 将android-whu-2.0.1.aar扩展包放到/app/libs文件夹下
+2. 将android-whu-2.3.aar扩展包放到/app/libs文件夹下
 
     ![alt text](img/image8.png)
 
@@ -70,7 +70,8 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
     * 在dependencies｛｝中添加下列语句。
 
     ```java
-      androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    // 加载aar包
+    implementation files('libs/android-whu-2.3.aar')
     ```
 
     * 在最外层添加下列语句。
@@ -110,107 +111,73 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
 2. 在DatabaseHelper.java中写入以下内容来管理数据库
 
     ```java
+    package com.example.importwhu;
+
     import android.content.Context;
     import android.database.Cursor;
     import android.util.Log;
 
-    import org.whu.database.SQLiteDatabase;
-    import org.whu.database.SQLiteOpenHelper;
+    import org.sqlite.database.sqlite.SQLiteDatabase;
+    import org.sqlite.database.sqlite.SQLiteOpenHelper;
 
     import java.io.File;
-    import java.io.FileOutputStream;
-    import java.io.IOException;
-    import java.io.InputStream;
 
     public class DatabaseHelper extends SQLiteOpenHelper {
 
-      private static final String DATABASE_NAME = "mydatabase.db";
-      private static final int DATABASE_VERSION = 1;
-      private Context context;
+        private static final String DATABASE_NAME = "test.db"; // 数据库名称
+        private static final int DATABASE_VERSION = 1;         // 数据库版本
+        private Context context;
+        public String loadSoFile = "";                         // 加载so库的语句
 
-      public DatabaseHelper(Context context) {
-        super(context, DATABASE_NAME, null, DATABASE_VERSION);
-        this.context = context;
-      }
-
-      @Override
-      public void onCreate(SQLiteDatabase db) {
-        // 初次创建数据库时，不做任何操作
-        // 创建初始表或执行其他初始化操作
-        loadWhu(db);
-        initializeWhuMetaData(db);
-      }
-
-      @Override
-      public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        // 如果需要更新数据库版本时，处理逻辑
-        onCreate(db);
-      }
-
-      private void loadWhu(SQLiteDatabase db) {
-        try {
-            String libPath = context.getFilesDir().getAbsolutePath() + "/libandroid_whu.so";
-            db.rawQuery("SELECT load_extension('" + libPath + "')", null);
-            Log.d("Whu", "Whu extension loaded.");
-        } catch (Exception e) {
-            Log.e("Whu", "Failed to load Whu extension: " + e.getMessage());
+        public DatabaseHelper(Context context) {
+            super(context, DATABASE_NAME, null, DATABASE_VERSION);
+            this.context = context;
+            initializeDatabase();
         }
-      }
 
-
-      private void initializeWhuMetaData(SQLiteDatabase db) {
-        try {
-            // 检查 Whu 元数据是否已经初始化
-            Cursor cursor = db.rawQuery("SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='spatial_ref_sys';", null);
-            if (cursor.moveToFirst() && cursor.getInt(0) == 0) {
-                db.rawQuery("SELECT InitSpatialMetaData()", null);
-                Log.d("Whu", "Whu metadata initialized.");
-            } else {
-                Log.d("Whu", "Whu metadata already initialized.");
-            }
-            cursor.close();
-        } catch (Exception e) {
-            Log.e("Whu", "Failed to initialize Whu metadata: " + e.getMessage());
+        @Override
+        public void onCreate(SQLiteDatabase db) {
+            // 在这里创建你的数据库表结构
+            Log.d("Whu", "Database created");
+            initializeDatabase();
         }
-      }
 
-      private void initializeDatabase() {
-        // 删除现有数据库文件以重新初始化
-        context.deleteDatabase(DATABASE_NAME);
-        SQLiteDatabase db = this.getWritableDatabase();
-        try {
-            copyAssetToInternalStorage(context, "libandroid_whu.so", context.getFilesDir().getAbsolutePath() + "/libandroid_whu.so");
-        } catch (IOException e) {
-            Log.e("Whu", "Failed to copy Whu extension: " + e.getMessage());
+        @Override
+        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+            // 如果数据库版本更新，这里可以处理升级逻辑
+            onCreate(db);
         }
-        loadWhu(db);
-        initializeWhuMetaData(db);
-      }
 
-      private void copyAssetToInternalStorage(Context context, String assetName, String outputPath) throws IOException {
-        File outFile = new File(outputPath);
-        if (!outFile.exists()) {
-            InputStream is = context.getAssets().open(assetName);
-            FileOutputStream fos = new FileOutputStream(outFile);
-            byte[] buffer = new byte[1024];
-            int length;
-            while ((length = is.read(buffer)) > 0) {
-                fos.write(buffer, 0, length);
-            }
-            fos.close();
-            is.close();
+        public void initializeDatabase() {
+            Log.d("Whu", "initializeDatabase");
+            File databaseFile = new File(context.getDatabasePath(DATABASE_NAME).getAbsolutePath());
+            SQLiteDatabase db = SQLiteDatabase.openOrCreateDatabase(databaseFile, null);
+
+            // 启用扩展加载功能
+            db.enableWriteAheadLogging();
+
+            // 获取扩展包路径
+            File soFile = new File(context.getFilesDir(), "libvec0.so");
+            loadSoFile = "SELECT load_extension('" + soFile.getAbsolutePath() + "');";
         }
-      }
 
-      public void executeSQL(String sql) {
-        SQLiteDatabase db = this.getWritableDatabase();
-        db.execSQL(sql);
-      }
+        // 执行非查询SQL命令（如 INSERT、UPDATE、DELETE 等）
+        public void executeSQL(String sql) {
+            SQLiteDatabase db = this.getWritableDatabase();
+            db.execSQL(sql);
+        }
 
-      public Cursor querySQL(String sql) {
-        SQLiteDatabase db = this.getReadableDatabase();
-        return db.rawQuery(sql, null);
-      }
+        // 执行查询 SQL 命令，并返回 Cursor 结果
+        public Cursor querySQL(String sql) {
+            SQLiteDatabase db = this.getReadableDatabase();
+            return db.rawQuery(sql, null);
+        }
+
+        // 执行扩展加载语句
+        public void loadExtension() {
+            SQLiteDatabase db = this.getWritableDatabase();
+            db.execSQL(loadSoFile);
+        }
     }
     ```
 
@@ -233,3 +200,109 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
 7. 由于我们整个页面使用的是ConstraintLayout，需要将每个小组件的四条边都固定好。如图所示，我们将第一个EditText的四条边上的圆点连接到了页面的上、左、右以及第一个Button的上边缘，这就代表第一个EditText已经固定好了，另外的组件也用这个方法固定直到红色感叹号消失。固定之后再慢慢调整组件位置
 
     ![alt text](img/image16.png)
+
+8. 由于我们还需要一个方框用来显示我们查询得到的结果，需要添加一个包含TextView的ScrollView。同时，添加后也将ScrollView固定好，至此我们的activity_main.xml就配置好了
+
+    ![alt text](img/image17.png)
+
+9. 接下来我们需要在MainActivity中为这些组件加上互动效果并实现它们的功能。首先，将需要用到的库导入到MainActivity中
+
+    ```java
+    import android.database.Cursor;
+    import android.os.Bundle;
+    import android.view.View;
+    import android.widget.Button;
+    import android.widget.EditText;
+    import android.widget.TextView;
+    import android.widget.Toast;
+    ```
+
+10. 然后声明一个方法将 .so 文件从 assets 目录解压到应用的私有目录，并在初始化 DatabaseHelper 之前调用这个方法
+    ```java
+    // 将.so文件从assets目录解压到应用的私有目录
+    private void extractSoFile(Context context) {
+        String soFileName = "libvec0.so";
+        File targetFile = new File(context.getFilesDir(), soFileName);
+        if (!targetFile.exists()) {  // 检查是否已经存在，避免重复解压
+            try (InputStream inputStream = context.getAssets().open(soFileName);
+                 FileOutputStream outputStream = new FileOutputStream(targetFile)) {
+                byte[] buffer = new byte[1024];
+                int length;
+                while ((length = inputStream.read(buffer)) > 0) {
+                    outputStream.write(buffer, 0, length);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    ```
+
+11. 然后需要在MainActivity的OnCreate()函数中声明我们所需要用到的数据库管理工具、输入框、按钮、输出框
+
+    ```java
+    DatabaseHelper dbHelper = new DatabaseHelper(this);
+    EditText editTextSQL1 = findViewById(R.id.editTextSQL1);
+    EditText editTextSQL2 = findViewById(R.id.editTextSQL2);
+    Button buttonExecute1 = findViewById(R.id.button1);
+    Button buttonExecute2 = findViewById(R.id.button2);
+    TextView textViewResults = findViewById(R.id.textViewResults);
+    ```
+
+12. 调用 DatabaseHelper 中声明的一个方法来执行扩展加载语句，将私有目录中的so文件加载到项目中
+
+    ```java
+    // 执行扩展加载语句，将内存中的so文件加载到项目中
+    dbHelper.loadExtension();
+    ```
+
+13. 然后设置两个按钮的点击事件，如果点击第一个按钮那就是执行创建、更新、删除数据库，如果点击第二个按钮那就是执行查询操作，查询到的内容会显示在下方的TextView中。
+
+    ```java
+    buttonExecute1.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            String sql1 = editTextSQL1.getText().toString().trim();
+            
+            try {
+                dbHelper.executeSQL(sql1);
+                Toast.makeText(MainActivity.this, "SQL executesuccessfully", Toast.LENGTH_SHORT).show();
+            } catch (Exception e) {
+                Toast.makeText(MainActivity.this, "SQL execution failed: " e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        }
+    })
+
+    buttonExecute2.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            String sql2 = editTextSQL2.getText().toString().trim()
+            try {
+                Cursor cursor = dbHelper.querySQL(sql2);
+                StringBuilder stringBuilder = new StringBuilder()
+                // 获取列名
+                String[] columnNames = cursor.getColumnNames();
+                for (String columnName : columnNames) {
+                    stringBuilder.append(columnName).append("\t");
+                }
+                stringBuilder.append("\n")
+                // 获取数据
+                while (cursor.moveToNext()) {
+                    for (String columnName : columnNames) {
+                        stringBuilder.append(cursor.getString(cursogetColumnIndexOrThrow(columnName))).append("\t");
+                    }
+                    stringBuilder.append("\n");
+                
+                textViewResults.setText(stringBuilder.toString());
+                Toast.makeText(MainActivity.this, "Query executesuccessfully", Toast.LENGTH_SHORT).show();
+                cursor.close();
+            } catch (Exception e) {
+                Toast.makeText(MainActivity.this, "Query execution failed: + e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        }
+    });
+    ```
+
+14. 至此，一个简单的demo就完成了，可以连接手机并点击运行来在真机上测试扩展包的功能。
+
+    ![alt text](img/image18.png)
