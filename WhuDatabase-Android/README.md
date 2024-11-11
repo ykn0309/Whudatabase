@@ -3,43 +3,44 @@
 </div>
 
 # 介绍
-WhuDatabase-Android是WhuDatabase的安卓版本，是一个可在安卓设备上部署的多模数据库。WhuDatabase-Android目前支持关系型数据、向量型数据、文档型数据以及空间数据。
+WhuDatabase-Android 是 WhuDatabase 的安卓版本，是一个可在安卓设备上部署的多模数据库。WhuDatabase-Android 目前支持关系型数据、向量型数据、文档型数据以及空间数据。
 
-WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据库，被广泛应用于手机等嵌入式设备。我们利用SQLite的扩展机制，通过在SQLite运行时加载android-whu-2.0.1扩展，来支持多模数据。下面是对相关扩展的简单介绍：
+WhuDatabase-Android 基于 SQLite 实现。SQLite 是一个开源的关系型数据库，被广泛应用于手机等嵌入式设备。我们利用 SQLite 的扩展机制，通过在 SQLite 运行时加载 ``libvec0`` 及 ``android-whu-2.3`` 扩展，来支持多模向量数据。下面是对相关扩展的简单介绍：
 
-* android-whu-2.0.1：一个开源的安卓扩展包，可以让SQLite支持向量和空间数据。
+* ***android-whu-2.3***：一个开源的安卓扩展包，可以让SQLite支持查询扩展以及跨模查询。
+* ***libvec0.so***：一个开源的安卓扩展包，可以让SQLite支持向量扩展。
 
 # 使用方法
 
-这一部分介绍如何在iOS开发中使用WhuDatabase-iOS。
+这一部分介绍如何在安卓开发中使用WhuDatabase-Android。
 
 ## 开发工具
 
-* Android Studio：电脑上必须安装Android Studio和相关开发套件。
+* ***Android Studio***：电脑上必须安装Android Studio和相关开发套件。
 
-* 安卓手机：真机测试需要在安卓手机上进行。
+* ***安卓手机***：真机测试需要在安卓手机上进行。
 
 ## WhuDatabase-Android重要组件
 
-* android-whu-2.3.aar：SQLite的扩展包。
+* ***android-whu-2.3***：SQLite的扩展包。
 
-* libvec0.so：可以加载到aar包中的向量扩展包。
+* ***libvec0***：可以加载到aar包中的向量扩展包。
 
 ## 快速上手
 
-以真机为例，介绍如何在真实项目中使用WhuDatabase。
+以真机为例，介绍如何在真实项目中使用 WhuDatabase。
 
 ### 创建项目
 
-1. 打开Android Studio，选择"Create New Project..."。
+1. 打开 Android Studio，选择 "Create New Project..."。
 
     ![打开Xcode](img/image1.png)
 
-2. 选择“Phone and Tablet” -> “Empty Activity”。
+2. 选择 “Phone and Tablet” -> “Empty Activity”。
 
     ![选择项目类型](img/image2.png)
 
-3. 输入项目信息，Language选择"Java"，Minimum SDK选择“API 28”。
+3. 输入项目信息，Language 选择 "Java"，Minimum SDK 选择 “API 28”。
 
     ![输入项目信息](img/image3.png)
 
@@ -51,23 +52,27 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
 
     ![alt text](img/image5.png)
 
-6. 点击“▶️”构建并运行项目。确保项目可以在iPhone上成功运行。
+6. 点击“▶️”构建并运行项目。确保项目可以在安卓手机上成功运行。
 
     <div style="text-align: center;"><img src="img/image6.jpg" width="30%"></div>
 
 ### 配置项目
 
-1. 将项目的视角调整为Project视角
+1. 将项目的视角调整为 Project 视角
 
     ![alt text](img/image7.png)
 
-2. 将android-whu-2.3.aar扩展包放到/app/libs文件夹下
+2. 将 android-whu-2.3.aar 扩展包放到 /app/libs 文件夹下
 
     ![alt text](img/image8.png)
 
-3. 在build.gradle(:app)中修改三个部分
+3. 将 libvec0.so 扩展包放到 /app/src/main/assets 文件夹下
 
-    * 在dependencies｛｝中添加下列语句。
+    ![alt text](img/image19.png)
+
+4. 在 build.gradle(:app) 中修改三个部分
+
+    * 在 dependencies｛｝中添加下列语句。
 
     ```java
     // 加载aar包
@@ -84,7 +89,7 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
     }
     ```
 
-    * 更改compileSdkVersion, targetSdkVersion和minSdkVersion，删掉buildToolsVersion
+    * 更改 compileSdkVersion, targetSdkVersion 和 minSdkVersion，删掉 buildToolsVersion
 
     ```java
     compileSdkVersion 29
@@ -94,21 +99,21 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
     }
     ```
 
-4. 更改之后需要同步build.gradle文件，点击“Sync Now”来同步
+5. 更改之后需要同步 build.gradle 文件，点击 “Sync Now” 来同步
 
     ![alt text](img/image9.png)
 
-5. 点击右上角的SDK Manager并下载API 29，点击Apply以应用到程序中
+6. 点击右上角的 SDK Manager 并下载 API 29，点击 Apply 以应用到程序中
 
     ![alt text](img/image10.png)
 
 ### 在项目中使用WhuDatabase
 
-1. 在app/src/main/java/com.example.your_project下右键新建一个Java Class并命名为DataBaseHelper
+1. 在 app/src/main/java/com.example.your_project 下右键新建一个 Java Class 并命名为 DataBaseHelper
 
     ![alt text](img/image11.png)
 
-2. 在DatabaseHelper.java中写入以下内容来管理数据库
+2. 在 DatabaseHelper.java 中写入以下内容来管理数据库
 
     ```java
     package com.example.importwhu;
@@ -181,31 +186,31 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
     }
     ```
 
-3. 需要在页面上添加两个输入框用来执行数据库创建语句和查询语句，双击src/main/res/layout/activity_main.xml，并点击右上角的split图标，可以看到左边是代码，右边是模拟画面。我们需要在Text中选中Plain Text，并将其拖入模拟画面中，选中边框以调整输入框的大小和位置
+3. 需要在页面上添加两个输入框用来执行数据库创建语句和查询语句，双击 src/main/res/layout/activity_main.xml，并点击右上角的 split 图标，可以看到左边是代码，右边是模拟画面。我们需要在 Text 中选中 Plain Text，并将其拖入模拟画面中，选中边框以调整输入框的大小和位置
 
     ![alt text](img/image12.png)
 
-4. 将两个EditText的id更改为如图所示，并将text改为hint并输入想要的提示信息
+4. 将两个 EditText 的 id 更改为如图所示，并将 text 改为 hint 并输入想要的提示信息
 
     ![alt text](img/image13.png)
 
-5. 还需要在页面上添加两个按钮来分别执行用户输入的两种语句，在Buttons中选中Button并拖入模拟画面中，选中边框以调整输入框的大小和位置
+5. 还需要在页面上添加两个按钮来分别执行用户输入的两种语句，在 Buttons 中选中 Button 并拖入模拟画面中，选中边框以调整输入框的大小和位置
 
     ![alt text](img/image14.png)
 
-6. 将两个Button的id更改为如图所示，并将text改为想要显示在按钮上的文字
+6. 将两个 Button 的 id 更改为如图所示，并将 text 改为想要显示在按钮上的文字
 
     ![alt text](img/image15.png)
 
-7. 由于我们整个页面使用的是ConstraintLayout，需要将每个小组件的四条边都固定好。如图所示，我们将第一个EditText的四条边上的圆点连接到了页面的上、左、右以及第一个Button的上边缘，这就代表第一个EditText已经固定好了，另外的组件也用这个方法固定直到红色感叹号消失。固定之后再慢慢调整组件位置
+7. 由于我们整个页面使用的是 ConstraintLayout，需要将每个小组件的四条边都固定好。如图所示，我们将第一个 EditText 的四条边上的圆点连接到了页面的上、左、右以及第一个 Button 的上边缘，这就代表第一个 EditText 已经固定好了，另外的组件也用这个方法固定直到红色感叹号消失。固定之后再慢慢调整组件位置
 
     ![alt text](img/image16.png)
 
-8. 由于我们还需要一个方框用来显示我们查询得到的结果，需要添加一个包含TextView的ScrollView。同时，添加后也将ScrollView固定好，至此我们的activity_main.xml就配置好了
+8. 由于我们还需要一个方框用来显示我们查询得到的结果，需要添加一个包含 TextView 的 ScrollView。同时，添加后也将 ScrollView 固定好，至此我们的 activity_main.xml 就配置好了
 
     ![alt text](img/image17.png)
 
-9. 接下来我们需要在MainActivity中为这些组件加上互动效果并实现它们的功能。首先，将需要用到的库导入到MainActivity中
+9. 接下来我们需要在 MainActivity 中为这些组件加上互动效果并实现它们的功能。首先，将需要用到的库导入到 MainActivity 中
 
     ```java
     import android.database.Cursor;
@@ -238,7 +243,7 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
     }
     ```
 
-11. 然后需要在MainActivity的OnCreate()函数中声明我们所需要用到的数据库管理工具、输入框、按钮、输出框
+11. 然后需要在 MainActivity 的 OnCreate() 函数中声明我们所需要用到的数据库管理工具、输入框、按钮、输出框
 
     ```java
     DatabaseHelper dbHelper = new DatabaseHelper(this);
@@ -249,14 +254,14 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
     TextView textViewResults = findViewById(R.id.textViewResults);
     ```
 
-12. 调用 DatabaseHelper 中声明的一个方法来执行扩展加载语句，将私有目录中的so文件加载到项目中
+12. 调用 DatabaseHelper 中声明的一个方法来执行扩展加载语句，将私有目录中的 so 文件加载到项目中
 
     ```java
     // 执行扩展加载语句，将内存中的so文件加载到项目中
     dbHelper.loadExtension();
     ```
 
-13. 然后设置两个按钮的点击事件，如果点击第一个按钮那就是执行创建、更新、删除数据库，如果点击第二个按钮那就是执行查询操作，查询到的内容会显示在下方的TextView中。
+13. 然后设置两个按钮的点击事件，如果点击第一个按钮那就是执行创建、更新、删除数据库，如果点击第二个按钮那就是执行查询操作，查询到的内容会显示在下方的 TextView 中。
 
     ```java
     buttonExecute1.setOnClickListener(new View.OnClickListener() {
@@ -303,6 +308,6 @@ WhuDatabase-Android基于SQLite实现。SQLite是一个开源的关系型数据�
     });
     ```
 
-14. 至此，一个简单的demo就完成了，可以连接手机并点击运行来在真机上测试扩展包的功能。
+14. 至此，一个简单的 demo 就完成了，可以连接手机并点击运行来在真机上测试扩展包的功能。
 
     ![alt text](img/image18.png)
