@@ -1,0 +1,1604 @@
+1
+00:00:00,480 --> 00:00:02,280
+hey y' Mitchell Saltzman here I'm the
+
+2
+00:00:02,280 --> 00:00:04,160
+reviewer of black myth Wukong and just a
+
+3
+00:00:04,160 --> 00:00:06,120
+quick note about this review as part of
+
+4
+00:00:06,120 --> 00:00:08,240
+the Embargo agreement set for this game
+
+5
+00:00:08,240 --> 00:00:10,160
+I am unable to show you footage Beyond
+
+6
+00:00:10,160 --> 00:00:12,240
+chapter 2 which presents a bit of a
+
+7
+00:00:12,240 --> 00:00:13,920
+problem because a lot of the technical
+
+8
+00:00:13,920 --> 00:00:15,799
+issues that I have with this game that I
+
+9
+00:00:15,799 --> 00:00:17,840
+specifically call out in this review
+
+10
+00:00:17,840 --> 00:00:20,359
+occurred after chapter 2 so I'm unable
+
+11
+00:00:20,359 --> 00:00:22,080
+to actually show them so we're going to
+
+12
+00:00:22,080 --> 00:00:24,199
+do two different video reviews this time
+
+13
+00:00:24,199 --> 00:00:25,720
+this first one will abide by their
+
+14
+00:00:25,720 --> 00:00:27,640
+restrictions and only show footage from
+
+15
+00:00:27,640 --> 00:00:29,720
+the first two chapters but we will also
+
+16
+00:00:29,720 --> 00:00:31,359
+be posting a more complete review with
+
+17
+00:00:31,359 --> 00:00:33,200
+the relevant footage added in on launch
+
+18
+00:00:33,200 --> 00:00:35,440
+day and with that on with the review for
+
+19
+00:00:35,440 --> 00:00:37,960
+black myth
+
+20
+00:00:42,000 --> 00:00:44,800
+Wukong I've never been so utterly blown
+
+21
+00:00:44,800 --> 00:00:47,640
+away yet simultaneously so unbelievably
+
+22
+00:00:47,640 --> 00:00:49,559
+frustrated by a game as I have been with
+
+23
+00:00:49,559 --> 00:00:52,600
+black myth Wukong this is undoubtedly
+
+24
+00:00:52,600 --> 00:00:55,039
+one of the most ambitious and impressive
+
+25
+00:00:55,039 --> 00:00:57,600
+action games I've played it's stunningly
+
+26
+00:00:57,600 --> 00:01:01,079
+gorgeous its combat is fantastic
+
+27
+00:01:01,079 --> 00:01:03,239
+it's incredibly challenging but always
+
+28
+00:01:03,239 --> 00:01:05,519
+satisfying to overcome and the setting
+
+29
+00:01:05,519 --> 00:01:07,560
+is refreshingly unique and steeped en
+
+30
+00:01:07,560 --> 00:01:10,400
+Rich Chinese
+
+31
+00:01:15,360 --> 00:01:18,080
+culture despite all of that it often
+
+32
+00:01:18,080 --> 00:01:19,799
+feels like it's barely holding it all
+
+33
+00:01:19,799 --> 00:01:21,920
+together I suffered numerous crashes
+
+34
+00:01:21,920 --> 00:01:23,600
+despite having a top-of-the-line set up
+
+35
+00:01:23,600 --> 00:01:26,479
+with a gForce RTX 490 not to mention the
+
+36
+00:01:26,479 --> 00:01:28,159
+multiple times I fell through the ground
+
+37
+00:01:28,159 --> 00:01:30,079
+and died in the Final Phase of a boss
+
+38
+00:01:30,079 --> 00:01:31,640
+fight or the way characters would
+
+39
+00:01:31,640 --> 00:01:33,799
+randomly switch from English to Chinese
+
+40
+00:01:33,799 --> 00:01:35,680
+or the way the dialogue audio would just
+
+41
+00:01:35,680 --> 00:01:37,560
+drop out all together and leave me
+
+42
+00:01:37,560 --> 00:01:38,920
+completely in the dark during an
+
+43
+00:01:38,920 --> 00:01:40,880
+important cut scene it's a rickety
+
+44
+00:01:40,880 --> 00:01:42,640
+roller coaster for sure and there were
+
+45
+00:01:42,640 --> 00:01:44,759
+definitely spots during the ride where I
+
+46
+00:01:44,759 --> 00:01:47,240
+was not having a great time but taken as
+
+47
+00:01:47,240 --> 00:01:49,159
+a whole this is one Adventure where the
+
+48
+00:01:49,159 --> 00:01:53,040
+bumps are worth it
+
+49
+00:02:00,200 --> 00:02:02,320
+black myth Wukong story is somewhat of a
+
+50
+00:02:02,320 --> 00:02:04,159
+followup to the classic novel Journey to
+
+51
+00:02:04,159 --> 00:02:06,920
+the West by Wu changen a book that I
+
+52
+00:02:06,920 --> 00:02:08,560
+only personally know thanks to very
+
+53
+00:02:08,560 --> 00:02:10,878
+loose adaptations like Dragon Ball and
+
+54
+00:02:10,878 --> 00:02:12,879
+enslaved Odyssey to the West that
+
+55
+00:02:12,879 --> 00:02:14,840
+surface level familiarity didn't help
+
+56
+00:02:14,840 --> 00:02:16,640
+much though as the interpretation that
+
+57
+00:02:16,640 --> 00:02:18,120
+the developers at game science have
+
+58
+00:02:18,120 --> 00:02:20,480
+crafted here is Laden with references to
+
+59
+00:02:20,480 --> 00:02:22,400
+characters and events from the novel
+
+60
+00:02:22,400 --> 00:02:23,959
+without doing a great job of bringing
+
+61
+00:02:23,959 --> 00:02:26,840
+you up to speed on who Sun Wukong is or
+
+62
+00:02:26,840 --> 00:02:28,360
+what he encountered on his titular
+
+63
+00:02:28,360 --> 00:02:30,319
+journey I had to look online to
+
+64
+00:02:30,319 --> 00:02:32,360
+understand who zuu baj was what his
+
+65
+00:02:32,360 --> 00:02:34,280
+history with Wukong is and what the
+
+66
+00:02:34,280 --> 00:02:36,280
+significance of certain encounters were
+
+67
+00:02:36,280 --> 00:02:37,640
+because otherwise I'd have been
+
+68
+00:02:37,640 --> 00:02:40,640
+completely lost at times you play as the
+
+69
+00:02:40,640 --> 00:02:42,840
+destined one a literal monkey who wakes
+
+70
+00:02:42,840 --> 00:02:44,720
+up one morning and decides to set out on
+
+71
+00:02:44,720 --> 00:02:47,120
+a roughly 40-hour journey to locate the
+
+72
+00:02:47,120 --> 00:02:49,360
+six relics of Wukong while the momentto
+
+73
+00:02:49,360 --> 00:02:50,800
+moment storytelling is fairly
+
+74
+00:02:50,800 --> 00:02:52,840
+unremarkable largely due to a mute
+
+75
+00:02:52,840 --> 00:02:54,560
+protagonist and Side characters that
+
+76
+00:02:54,560 --> 00:02:56,120
+aren't given enough screen time to
+
+77
+00:02:56,120 --> 00:02:58,159
+develop each of the six self-contained
+
+78
+00:02:58,159 --> 00:03:00,000
+chapters culminates with the stunningly
+
+79
+00:03:00,000 --> 00:03:02,040
+gorgeous animated vignette that tells a
+
+80
+00:03:02,040 --> 00:03:03,879
+short story about that chapter's main
+
+81
+00:03:03,879 --> 00:03:05,879
+antagonist each one is done in a
+
+82
+00:03:05,879 --> 00:03:07,560
+completely different art style with one
+
+83
+00:03:07,560 --> 00:03:09,519
+drawn to look like a story book another
+
+84
+00:03:09,519 --> 00:03:11,760
+using stop motion animation and another
+
+85
+00:03:11,760 --> 00:03:13,799
+done in the style of an anime every
+
+86
+00:03:13,799 --> 00:03:15,400
+single one of them is beautiful and
+
+87
+00:03:15,400 --> 00:03:17,000
+poignant and I couldn't help but wish
+
+88
+00:03:17,000 --> 00:03:18,599
+that the main story managed to move me
+
+89
+00:03:18,599 --> 00:03:21,159
+in similar
+
+90
+00:03:25,159 --> 00:03:27,680
+ways my initial read on Wukong was that
+
+91
+00:03:27,680 --> 00:03:29,439
+it was a soulslike given the checkpoint
+
+92
+00:03:29,439 --> 00:03:31,519
+system the stamina bar that governs your
+
+93
+00:03:31,519 --> 00:03:33,599
+actions in combat and the Dodge heavy
+
+94
+00:03:33,599 --> 00:03:35,560
+fighting style but as it turns out
+
+95
+00:03:35,560 --> 00:03:37,080
+Wukong has more in common with
+
+96
+00:03:37,080 --> 00:03:39,040
+traditional action games like what you
+
+97
+00:03:39,040 --> 00:03:40,680
+might expect from bayonet developer
+
+98
+00:03:40,680 --> 00:03:42,400
+Platinum Games than it does with
+
+99
+00:03:42,400 --> 00:03:44,400
+anything that from software has made
+
+100
+00:03:44,400 --> 00:03:46,319
+most of the usual Souls like conventions
+
+101
+00:03:46,319 --> 00:03:48,280
+are missing there's no penalty for death
+
+102
+00:03:48,280 --> 00:03:49,760
+outside of respawning at the nearest
+
+103
+00:03:49,760 --> 00:03:51,319
+checkpoint you don't use a shared
+
+104
+00:03:51,319 --> 00:03:52,760
+currency to level up your stats and
+
+105
+00:03:52,760 --> 00:03:54,879
+purchase items or upgrades and while
+
+106
+00:03:54,879 --> 00:03:57,319
+there is gear and stats to consider you
+
+107
+00:03:57,319 --> 00:03:59,040
+largely just go and swap out the old
+
+108
+00:03:59,040 --> 00:04:00,720
+equipment with the new as opposed to
+
+109
+00:04:00,720 --> 00:04:02,879
+making choices as to what kind of weapon
+
+110
+00:04:02,879 --> 00:04:04,519
+or piece of armor you want to hold on to
+
+111
+00:04:04,519 --> 00:04:06,840
+an upgrade and even though I am a big
+
+112
+00:04:06,840 --> 00:04:08,599
+fan of souls likes ditching those
+
+113
+00:04:08,599 --> 00:04:10,239
+mechanics feels like the right move for
+
+114
+00:04:10,239 --> 00:04:12,400
+the game that Wukong is trying to be
+
+115
+00:04:12,400 --> 00:04:14,360
+it's far more forgiving focused on
+
+116
+00:04:14,360 --> 00:04:16,079
+keeping you in the action rather than
+
+117
+00:04:16,079 --> 00:04:17,680
+pouring over menus or retracing your
+
+118
+00:04:17,680 --> 00:04:19,440
+steps to regain your lost currency after
+
+119
+00:04:19,440 --> 00:04:21,959
+dying and Wukong is a better more
+
+120
+00:04:21,959 --> 00:04:23,919
+distinctive game for it to be clear
+
+121
+00:04:23,919 --> 00:04:25,840
+though when I say it's more forgiving I
+
+122
+00:04:25,840 --> 00:04:27,639
+don't mean that it's any less difficult
+
+123
+00:04:27,639 --> 00:04:29,720
+than a from Style game in fact I'd go so
+
+124
+00:04:29,720 --> 00:04:31,759
+so far as to say that between this and
+
+125
+00:04:31,759 --> 00:04:33,919
+Elden ring shadow of the air tree I had
+
+126
+00:04:33,919 --> 00:04:35,639
+more difficulty getting through wukong's
+
+127
+00:04:35,639 --> 00:04:37,960
+toughest
+
+128
+00:04:37,960 --> 00:04:42,600
+challenges unit as I deemed but at the
+
+129
+00:04:42,600 --> 00:04:44,400
+same time those challenges never felt
+
+130
+00:04:44,400 --> 00:04:46,240
+unfair and overcoming some of the
+
+131
+00:04:46,240 --> 00:04:47,919
+tougher boss fights was always a
+
+132
+00:04:47,919 --> 00:04:50,039
+satisfying combination of learning their
+
+133
+00:04:50,039 --> 00:04:51,960
+attack patterns figuring out where I
+
+134
+00:04:51,960 --> 00:04:54,120
+could maximize My Punishment windows and
+
+135
+00:04:54,120 --> 00:04:55,840
+tweaking my load out in ways that made
+
+136
+00:04:55,840 --> 00:05:00,000
+the best use of My Chosen powers
+
+137
+00:05:04,720 --> 00:05:06,759
+combat in black myth Wukong is simple
+
+138
+00:05:06,759 --> 00:05:09,000
+and elegant thanks in part to some tools
+
+139
+00:05:09,000 --> 00:05:10,800
+that are really fun to play around with
+
+140
+00:05:10,800 --> 00:05:12,759
+success hinges on a delicate balance of
+
+141
+00:05:12,759 --> 00:05:14,960
+twitch reflex style gameplay mixed with
+
+142
+00:05:14,960 --> 00:05:17,080
+careful Resource Management that largely
+
+143
+00:05:17,080 --> 00:05:18,919
+revolves around a focus meter which
+
+144
+00:05:18,919 --> 00:05:20,520
+builds up when you land hits and
+
+145
+00:05:20,520 --> 00:05:23,600
+perfectly Dodge enemy
+
+146
+00:05:24,160 --> 00:05:26,520
+attacks you gain a focus Point whenever
+
+147
+00:05:26,520 --> 00:05:28,319
+that meter fills up which you could then
+
+148
+00:05:28,319 --> 00:05:29,880
+spend in the middle of a light attack
+
+149
+00:05:29,880 --> 00:05:32,440
+combo for a varied combo or you can just
+
+150
+00:05:32,440 --> 00:05:34,120
+use a heavy attack on its own for a
+
+151
+00:05:34,120 --> 00:05:36,039
+powerful strike that can be charged even
+
+152
+00:05:36,039 --> 00:05:38,960
+further if two three or even four Focus
+
+153
+00:05:38,960 --> 00:05:41,800
+points are consumed all at
+
+154
+00:05:41,800 --> 00:05:44,240
+once you also have access to a small
+
+155
+00:05:44,240 --> 00:05:46,160
+handful of spells governed by a Mana
+
+156
+00:05:46,160 --> 00:05:47,840
+meter that are versatile enough to be
+
+157
+00:05:47,840 --> 00:05:50,120
+useful in a wide array of situations the
+
+158
+00:05:50,120 --> 00:05:52,160
+immobilized spell for instance freezes
+
+159
+00:05:52,160 --> 00:05:54,240
+enemies for a short time allowing you to
+
+160
+00:05:54,240 --> 00:05:55,960
+get in some quick hits and potentially
+
+161
+00:05:55,960 --> 00:05:57,960
+stagger them to allow for even more free
+
+162
+00:05:57,960 --> 00:05:59,639
+damage Cloud step turns you into
+
+163
+00:05:59,639 --> 00:06:01,120
+invisible and creates a Decoy for your
+
+164
+00:06:01,120 --> 00:06:03,240
+enemies to focus on while you break away
+
+165
+00:06:03,240 --> 00:06:04,880
+heal up and then hit your foe with a
+
+166
+00:06:04,880 --> 00:06:07,000
+surprise attack that can crit Rock Solid
+
+167
+00:06:07,000 --> 00:06:08,560
+briefly turns you into a statue that
+
+168
+00:06:08,560 --> 00:06:10,120
+will cause an enemy's attack to bounce
+
+169
+00:06:10,120 --> 00:06:11,440
+right off of you giving you an
+
+170
+00:06:11,440 --> 00:06:13,160
+opportunity for a Counterattack Ring of
+
+171
+00:06:13,160 --> 00:06:14,680
+Fire creates a barrier around you that
+
+172
+00:06:14,680 --> 00:06:16,560
+will initially repel enemies and Grant
+
+173
+00:06:16,560 --> 00:06:18,599
+you some Health Restoration along with
+
+174
+00:06:18,599 --> 00:06:20,479
+enhancing any stat altering drinks that
+
+175
+00:06:20,479 --> 00:06:22,400
+you may use while standing inside of it
+
+176
+00:06:22,400 --> 00:06:24,120
+and finally there's my personal favorite
+
+177
+00:06:24,120 --> 00:06:25,960
+a pluck of many which lets you make
+
+178
+00:06:25,960 --> 00:06:28,000
+multiple clones of yourself to all gang
+
+179
+00:06:28,000 --> 00:06:31,560
+up an enemy at once
+
+180
+00:06:35,960 --> 00:06:37,360
+separate from that you've also got
+
+181
+00:06:37,360 --> 00:06:39,319
+Transformations which allow you to morph
+
+182
+00:06:39,319 --> 00:06:40,800
+into powerful creatures that you've
+
+183
+00:06:40,800 --> 00:06:42,639
+already bested in battle what's really
+
+184
+00:06:42,639 --> 00:06:44,360
+cool about these is that they don't cost
+
+185
+00:06:44,360 --> 00:06:46,160
+any Mana they're tied to a very lengthy
+
+186
+00:06:46,160 --> 00:06:48,160
+cooldown instead and they turn you into
+
+187
+00:06:48,160 --> 00:06:50,039
+a totally different character complete
+
+188
+00:06:50,039 --> 00:06:52,199
+with an all new move set special moves
+
+189
+00:06:52,199 --> 00:06:54,680
+that use their own Focus meter and more
+
+190
+00:06:54,680 --> 00:06:56,440
+for example one of the first bosses that
+
+191
+00:06:56,440 --> 00:06:58,120
+you fight is a wolf with a fiery dual
+
+192
+00:06:58,120 --> 00:07:00,680
+blade that has a lightning f Dash attack
+
+193
+00:07:00,680 --> 00:07:02,319
+when you defeat him you'll gain his
+
+194
+00:07:02,319 --> 00:07:04,240
+transformation and be able to do that
+
+195
+00:07:04,240 --> 00:07:06,240
+very same Dash attack to your enemies
+
+196
+00:07:06,240 --> 00:07:08,120
+and once you build up its focus meter
+
+197
+00:07:08,120 --> 00:07:09,759
+you'll even be able to do a hugely
+
+198
+00:07:09,759 --> 00:07:11,639
+powerful leaping strike that can ignite
+
+199
+00:07:11,639 --> 00:07:14,000
+foes and deal damage over time to them
+
+200
+00:07:14,000 --> 00:07:15,759
+and then finally there are Spirit skills
+
+201
+00:07:15,759 --> 00:07:17,199
+which are earned by defeating certain
+
+202
+00:07:17,199 --> 00:07:18,919
+more powerful versions of enemies and
+
+203
+00:07:18,919 --> 00:07:21,080
+absorbing their Essence into your gourd
+
+204
+00:07:21,080 --> 00:07:22,879
+these are effectively Transformations
+
+205
+00:07:22,879 --> 00:07:24,879
+that only last for one attack and are
+
+206
+00:07:24,879 --> 00:07:27,160
+also tied to a fairly lengthy cooldown
+
+207
+00:07:27,160 --> 00:07:29,520
+but it's great to be able to for example
+
+208
+00:07:29,520 --> 00:07:31,039
+use the wandering White's powerful
+
+209
+00:07:31,039 --> 00:07:32,520
+headbutt
+
+210
+00:07:32,520 --> 00:07:35,080
+attack to get an extra stagger after
+
+211
+00:07:35,080 --> 00:07:36,800
+immobilizing an enemy these Spirit
+
+212
+00:07:36,800 --> 00:07:38,680
+skills can also be leveled up which
+
+213
+00:07:38,680 --> 00:07:40,400
+makes it so that even the early game
+
+214
+00:07:40,400 --> 00:07:42,440
+Spirits never lose their strength as the
+
+215
+00:07:42,440 --> 00:07:44,440
+campaign rolls on it's an excellent
+
+216
+00:07:44,440 --> 00:07:46,440
+blend of options especially when mixed
+
+217
+00:07:46,440 --> 00:07:48,560
+with some truly incredible boss fights
+
+218
+00:07:48,560 --> 00:07:50,759
+and Wukong introduces all these elements
+
+219
+00:07:50,759 --> 00:07:52,520
+at thoughtfully measured pace so I never
+
+220
+00:07:52,520 --> 00:07:54,879
+felt overwhelmed make no mistake the
+
+221
+00:07:54,879 --> 00:07:59,560
+destined one is extremely powerful
+
+222
+00:07:59,840 --> 00:08:02,000
+[Music]
+
+223
+00:08:02,000 --> 00:08:03,599
+and being in control of him is
+
+224
+00:08:03,599 --> 00:08:05,720
+definitely a heck of a Power Trip even
+
+225
+00:08:05,720 --> 00:08:08,000
+beyond the many powers and abilities he
+
+226
+00:08:08,000 --> 00:08:10,240
+has at his disposal nothing beats the
+
+227
+00:08:10,240 --> 00:08:12,319
+feeling of just slamming a 50-ft bow
+
+228
+00:08:12,319 --> 00:08:14,759
+staff down onto an enemy's
+
+229
+00:08:14,759 --> 00:08:17,199
+head but I still had to be smart with
+
+230
+00:08:17,199 --> 00:08:19,199
+how I used my spells due to the fact
+
+231
+00:08:19,199 --> 00:08:21,680
+that Mana restoration is actually very
+
+232
+00:08:21,680 --> 00:08:23,199
+difficult this is where the resource
+
+233
+00:08:23,199 --> 00:08:25,000
+management aspect of combat comes into
+
+234
+00:08:25,000 --> 00:08:27,080
+play I had to carefully consider what
+
+235
+00:08:27,080 --> 00:08:29,199
+spells were actually worth the Mana cost
+
+236
+00:08:29,199 --> 00:08:30,879
+whether I should save them for a more
+
+237
+00:08:30,879 --> 00:08:32,719
+difficult second phase of a fight and
+
+238
+00:08:32,719 --> 00:08:34,279
+whether or not I could capitalize on the
+
+239
+00:08:34,279 --> 00:08:35,958
+opportunity if I were to spend the Mana
+
+240
+00:08:35,958 --> 00:08:37,799
+in the first place for instance even
+
+241
+00:08:37,799 --> 00:08:39,599
+though it's my most powerful spell I
+
+242
+00:08:39,599 --> 00:08:41,240
+often had to hold off on casting my
+
+243
+00:08:41,240 --> 00:08:43,399
+pluck of many spell that duplicates my
+
+244
+00:08:43,399 --> 00:08:45,160
+character since it has an extremely high
+
+245
+00:08:45,160 --> 00:08:48,120
+Mana cost if I cast it at a bad time the
+
+246
+00:08:48,120 --> 00:08:49,720
+boss could simply wipe out all of my
+
+247
+00:08:49,720 --> 00:08:51,480
+clones with an AOE attack before they
+
+248
+00:08:51,480 --> 00:08:53,760
+even got a chance to get some damage in
+
+249
+00:08:53,760 --> 00:08:55,279
+sometimes the adjustment I had to make
+
+250
+00:08:55,279 --> 00:08:57,320
+when I was stuck on a boss was a simple
+
+251
+00:08:57,320 --> 00:08:59,440
+change in how I use my abilities and the
+
+252
+00:08:59,440 --> 00:09:01,120
+the act of coming up with a new strategy
+
+253
+00:09:01,120 --> 00:09:03,079
+and having it pay off was always
+
+254
+00:09:03,079 --> 00:09:05,040
+extremely
+
+255
+00:09:05,040 --> 00:09:07,399
+satisfying while boss battles are where
+
+256
+00:09:07,399 --> 00:09:09,519
+Wukong is at its best there's also a
+
+257
+00:09:09,519 --> 00:09:11,000
+highly respectable amount of enemy
+
+258
+00:09:11,000 --> 00:09:13,200
+Variety in its regular fights level
+
+259
+00:09:13,200 --> 00:09:15,560
+design is of the wide linear variety
+
+260
+00:09:15,560 --> 00:09:17,000
+usually with a clear main path that
+
+261
+00:09:17,000 --> 00:09:18,920
+leads from checkpoint to checkpoint but
+
+262
+00:09:18,920 --> 00:09:20,680
+plenty of opportunities to venture off
+
+263
+00:09:20,680 --> 00:09:22,920
+that path to discover optional goodies
+
+264
+00:09:22,920 --> 00:09:24,600
+the rewards for exploration are great
+
+265
+00:09:24,600 --> 00:09:26,760
+too I found rare crafting materials to
+
+266
+00:09:26,760 --> 00:09:28,640
+make new weapons and armor special
+
+267
+00:09:28,640 --> 00:09:30,600
+enemies that drop the new spirit skill
+
+268
+00:09:30,600 --> 00:09:32,480
+curio items that could Equip to enhance
+
+269
+00:09:32,480 --> 00:09:34,440
+my build and treasure chests that might
+
+270
+00:09:34,440 --> 00:09:36,680
+permanently increase my Max Health Mana
+
+271
+00:09:36,680 --> 00:09:38,680
+or stamina all of which made the time
+
+272
+00:09:38,680 --> 00:09:40,880
+that I took to find them well spent on
+
+273
+00:09:40,880 --> 00:09:42,279
+top of that there are also several
+
+274
+00:09:42,279 --> 00:09:44,720
+secret boss fights to discover key items
+
+275
+00:09:44,720 --> 00:09:46,279
+with mysterious uses that I still
+
+276
+00:09:46,279 --> 00:09:48,399
+haven't figured out and plenty of more
+
+277
+00:09:48,399 --> 00:09:50,120
+reasons to stray from the beaten path
+
+278
+00:09:50,120 --> 00:09:51,920
+and keep an eye constantly scanning the
+
+279
+00:09:51,920 --> 00:09:53,680
+environment the main one being that
+
+280
+00:09:53,680 --> 00:09:56,000
+Wukong is one of the most gorgeous games
+
+281
+00:09:56,000 --> 00:09:58,120
+I've ever played every environment is
+
+282
+00:09:58,120 --> 00:09:59,720
+brimming with detail from the chip
+
+283
+00:09:59,720 --> 00:10:01,160
+pieces of bark on the trees in the
+
+284
+00:10:01,160 --> 00:10:03,279
+forest to the real-time deformation of
+
+285
+00:10:03,279 --> 00:10:05,120
+the snow as the destined one moves
+
+286
+00:10:05,120 --> 00:10:06,519
+through it while dragging his staff
+
+287
+00:10:06,519 --> 00:10:08,959
+along not only that but the animation is
+
+288
+00:10:08,959 --> 00:10:11,040
+impeccable too with wonderful touches
+
+289
+00:10:11,040 --> 00:10:12,640
+and flourishes like the way your
+
+290
+00:10:12,640 --> 00:10:14,200
+character will do a little hop step when
+
+291
+00:10:14,200 --> 00:10:16,040
+locked onto an enemy then change to
+
+292
+00:10:16,040 --> 00:10:17,720
+strafing around them as opposed to just
+
+293
+00:10:17,720 --> 00:10:19,519
+running straight on while keeping their
+
+294
+00:10:19,519 --> 00:10:21,600
+head turned the music and sound design
+
+295
+00:10:21,600 --> 00:10:23,600
+is fantastic as well with epic drum
+
+296
+00:10:23,600 --> 00:10:26,240
+thumping battle
+
+297
+00:10:28,079 --> 00:10:30,720
+themes and melodic flutes and Chimes
+
+298
+00:10:30,720 --> 00:10:32,440
+adding to the air of Wonder and mystery
+
+299
+00:10:32,440 --> 00:10:34,100
+as you explore the
+
+300
+00:10:34,100 --> 00:10:39,950
+[Music]
+
+301
+00:10:41,760 --> 00:10:44,560
+unknown all that said this game really
+
+302
+00:10:44,560 --> 00:10:46,360
+would have benefited from a map plain
+
+303
+00:10:46,360 --> 00:10:48,120
+and simple the lands you explore in
+
+304
+00:10:48,120 --> 00:10:50,079
+Wukong are beautiful no doubt but
+
+305
+00:10:50,079 --> 00:10:52,160
+they're far too big and too crammed with
+
+306
+00:10:52,160 --> 00:10:53,959
+secrets to not give you some sort of
+
+307
+00:10:53,959 --> 00:10:56,279
+navigational help especially the second
+
+308
+00:10:56,279 --> 00:10:58,680
+and third chapters this along with the
+
+309
+00:10:58,680 --> 00:11:00,360
+fact that it's aggravatingly hard to
+
+310
+00:11:00,360 --> 00:11:02,040
+tell what obstacles can actually be
+
+311
+00:11:02,040 --> 00:11:04,040
+climbed over and what's an invisible
+
+312
+00:11:04,040 --> 00:11:05,959
+wall can make exploration quite
+
+313
+00:11:05,959 --> 00:11:07,760
+cumbersome it's a good thing that the
+
+314
+00:11:07,760 --> 00:11:10,240
+rewards are worth
+
+315
+00:11:10,240 --> 00:11:13,450
+[Music]
+
+316
+00:11:14,639 --> 00:11:17,079
+it however it's hard not to feel like
+
+317
+00:11:17,079 --> 00:11:19,360
+all vuk Kong's Splender and detail came
+
+318
+00:11:19,360 --> 00:11:21,880
+at a great cost I experienced numerous
+
+319
+00:11:21,880 --> 00:11:24,160
+crashes with one particular Heartbreaker
+
+320
+00:11:24,160 --> 00:11:25,760
+happening right after defeating an
+
+321
+00:11:25,760 --> 00:11:27,880
+extremely tough boss that I then had to
+
+322
+00:11:27,880 --> 00:11:29,920
+defeat again several others were more
+
+323
+00:11:29,920 --> 00:11:31,720
+minor and would typically happen as I
+
+324
+00:11:31,720 --> 00:11:33,639
+was loading up a new chapter or fast
+
+325
+00:11:33,639 --> 00:11:35,399
+traveling to another level but they
+
+326
+00:11:35,399 --> 00:11:36,720
+eventually add up to a lot of
+
+327
+00:11:36,720 --> 00:11:39,160
+frustration in addition to that several
+
+328
+00:11:39,160 --> 00:11:41,200
+times during important cutcenes all
+
+329
+00:11:41,200 --> 00:11:42,920
+dialogue audio and subtitles would drop
+
+330
+00:11:42,920 --> 00:11:44,839
+out completely leaving me without any
+
+331
+00:11:44,839 --> 00:11:46,720
+clue as to what was being talked about
+
+332
+00:11:46,720 --> 00:11:48,959
+and no way to rewatch The cutscene
+
+333
+00:11:48,959 --> 00:11:50,440
+characters would occasionally switch to
+
+334
+00:11:50,440 --> 00:11:52,440
+speaking Chinese all of a sudden despite
+
+335
+00:11:52,440 --> 00:11:54,160
+me having the audio set to English the
+
+336
+00:11:54,160 --> 00:11:56,160
+lip flaps of the English dub often don't
+
+337
+00:11:56,160 --> 00:11:58,440
+even remotely match what's being spoken
+
+338
+00:11:58,440 --> 00:12:02,160
+oh thank
+
+339
+00:12:02,160 --> 00:12:06,639
+M finally then the three Bells
+
+340
+00:12:06,639 --> 00:12:09,079
+sang disciples
+
+341
+00:12:09,079 --> 00:12:11,600
+come and most of the journal entries you
+
+342
+00:12:11,600 --> 00:12:13,399
+find along the way haven't even been
+
+343
+00:12:13,399 --> 00:12:15,760
+localized yet into English the worst
+
+344
+00:12:15,760 --> 00:12:17,800
+though was one particular fight in which
+
+345
+00:12:17,800 --> 00:12:19,360
+the boss would plunge me down through
+
+346
+00:12:19,360 --> 00:12:20,959
+the ground during the transition to its
+
+347
+00:12:20,959 --> 00:12:22,959
+Final Phase only to have me fall through
+
+348
+00:12:22,959 --> 00:12:24,720
+the world once I regained control of my
+
+349
+00:12:24,720 --> 00:12:26,760
+character this kept on happening to the
+
+350
+00:12:26,760 --> 00:12:28,199
+point where I thought my game was
+
+351
+00:12:28,199 --> 00:12:30,320
+unavoidably bugged and I wouldn't be
+
+352
+00:12:30,320 --> 00:12:32,720
+able to reach the end but my Insanity of
+
+353
+00:12:32,720 --> 00:12:34,199
+trying the same thing over and over
+
+354
+00:12:34,199 --> 00:12:36,000
+again eventually yielded a different
+
+355
+00:12:36,000 --> 00:12:38,320
+result for no discernable reason these
+
+356
+00:12:38,320 --> 00:12:40,079
+are the kinds of technical problems that
+
+357
+00:12:40,079 --> 00:12:41,680
+game science will hopefully look to
+
+358
+00:12:41,680 --> 00:12:43,839
+address in post-launch batches and it's
+
+359
+00:12:43,839 --> 00:12:46,120
+not outside the realm of possibility as
+
+360
+00:12:46,120 --> 00:12:48,399
+even cyberpunk 2077 was eventually
+
+361
+00:12:48,399 --> 00:12:50,199
+whipped into shape after its own buggy
+
+362
+00:12:50,199 --> 00:12:51,959
+launch I hope that those fixes come
+
+363
+00:12:51,959 --> 00:12:53,360
+swiftly because while I still
+
+364
+00:12:53,360 --> 00:12:55,199
+wholeheartedly think that the things
+
+365
+00:12:55,199 --> 00:12:57,600
+that black myth Wukong does so right are
+
+366
+00:12:57,600 --> 00:12:59,480
+worth dealing with those problems I
+
+367
+00:12:59,480 --> 00:13:01,000
+would love to be able to recommend it
+
+368
+00:13:01,000 --> 00:13:02,550
+without those
+
+369
+00:13:02,550 --> 00:13:05,670
+[Music]
+
+370
+00:13:06,240 --> 00:13:09,120
+caveats as game Sciences debut action
+
+371
+00:13:09,120 --> 00:13:11,760
+game black myth Wukong is mostly a great
+
+372
+00:13:11,760 --> 00:13:14,120
+success despite some major technical
+
+373
+00:13:14,120 --> 00:13:16,399
+black marks and localization issues that
+
+374
+00:13:16,399 --> 00:13:20,000
+are likely to cause some frustrations at
+
+375
+00:13:20,000 --> 00:13:22,680
+launch combat is fantastic thanks to a
+
+376
+00:13:22,680 --> 00:13:24,120
+great balance of careful resource
+
+377
+00:13:24,120 --> 00:13:26,160
+management and lightning fast twitch
+
+378
+00:13:26,160 --> 00:13:28,399
+reaction gameplay that tested my skills
+
+379
+00:13:28,399 --> 00:13:30,600
+as much as Elder ring ever has despite
+
+380
+00:13:30,600 --> 00:13:32,360
+it being a more traditional action game
+
+381
+00:13:32,360 --> 00:13:34,600
+than from software style not only that
+
+382
+00:13:34,600 --> 00:13:36,399
+but there are a ton of exciting boss
+
+383
+00:13:36,399 --> 00:13:38,959
+battles a great variety of enemies and
+
+384
+00:13:38,959 --> 00:13:40,800
+the world they inhabit is an absolute
+
+385
+00:13:40,800 --> 00:13:43,240
+treat for the eyes and ears its story
+
+386
+00:13:43,240 --> 00:13:45,279
+has its moments but relies a bit too
+
+387
+00:13:45,279 --> 00:13:46,639
+much on having prior knowledge of the
+
+388
+00:13:46,639 --> 00:13:48,279
+events of Journey to the West and it
+
+389
+00:13:48,279 --> 00:13:49,839
+really could have used a map to make its
+
+390
+00:13:49,839 --> 00:13:51,519
+rewarding exploration measure up to the
+
+391
+00:13:51,519 --> 00:13:53,680
+strength of the combat all said its
+
+392
+00:13:53,680 --> 00:13:55,320
+strengths more than carry it through
+
+393
+00:13:55,320 --> 00:13:57,519
+making black myth Wukong a great action
+
+394
+00:13:57,519 --> 00:14:00,040
+game that could be even greater if game
+
+395
+00:14:00,040 --> 00:14:01,880
+science can squash the
+
+396
+00:14:01,880 --> 00:14:04,600
+bugs for more black myth Wukong make
+
+397
+00:14:04,600 --> 00:14:05,920
+sure to check out the first minutes of
+
+398
+00:14:05,920 --> 00:14:07,680
+the game along with our guides for
+
+399
+00:14:07,680 --> 00:14:09,360
+things that doesn't tell you and skills
+
+400
+00:14:09,360 --> 00:14:11,399
+to get first and for everything else
+
+401
+00:14:11,399 --> 00:14:15,360
+keep it here on IGN
+

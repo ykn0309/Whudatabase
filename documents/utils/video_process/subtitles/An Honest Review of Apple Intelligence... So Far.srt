@@ -1,0 +1,1992 @@
+1
+00:00:03,480 --> 00:00:04,839
+all right we got to talk about Apple
+
+2
+00:00:04,839 --> 00:00:07,279
+intelligence so Apple's made this
+
+3
+00:00:07,279 --> 00:00:09,160
+promise this huge thing is coming that's
+
+4
+00:00:09,160 --> 00:00:10,960
+going to change everything across their
+
+5
+00:00:10,960 --> 00:00:12,240
+whole lineup they've been talking about
+
+6
+00:00:12,240 --> 00:00:15,480
+it for a while and I think that promise
+
+7
+00:00:15,480 --> 00:00:17,320
+is starting to fade this was first
+
+8
+00:00:17,320 --> 00:00:21,119
+announced at WWDC 2024 that was nearly 6
+
+9
+00:00:21,119 --> 00:00:23,240
+months ago and it's still not completely
+
+10
+00:00:23,240 --> 00:00:24,920
+out yet the new iPhones launched in
+
+11
+00:00:24,920 --> 00:00:27,000
+September with exactly zero Apple
+
+12
+00:00:27,000 --> 00:00:28,560
+intelligence features but then some
+
+13
+00:00:28,560 --> 00:00:30,039
+software updates have started to push
+
+14
+00:00:30,039 --> 00:00:32,200
+out and eventually it's supposed to be
+
+15
+00:00:32,200 --> 00:00:34,160
+finished and in everyone's Hands by
+
+16
+00:00:34,160 --> 00:00:35,079
+March
+
+17
+00:00:35,079 --> 00:00:38,360
+2025 that's a lot of buildup so what I
+
+18
+00:00:38,360 --> 00:00:41,800
+want to do now is review every single
+
+19
+00:00:41,800 --> 00:00:44,320
+Apple intelligence feature that's out so
+
+20
+00:00:44,320 --> 00:00:47,239
+far and then also get into whether the
+
+21
+00:00:47,239 --> 00:00:49,440
+promise that they're actually making is
+
+22
+00:00:49,440 --> 00:00:51,840
+even good in the first place so first up
+
+23
+00:00:51,840 --> 00:00:53,719
+writing tools so all these features
+
+24
+00:00:53,719 --> 00:00:55,960
+unless otherwise specified are on iPhone
+
+25
+00:00:55,960 --> 00:00:59,199
+iPad and Mac so no apple intelligence
+
+26
+00:00:59,199 --> 00:01:01,680
+features at all on the Vision Pro their
+
+27
+00:01:01,680 --> 00:01:04,360
+most futuristic platform that's already
+
+28
+00:01:04,360 --> 00:01:05,560
+kind of fascinating but the writing
+
+29
+00:01:05,560 --> 00:01:07,200
+tools you may have heard about these
+
+30
+00:01:07,200 --> 00:01:09,280
+since they're definitely referenced a
+
+31
+00:01:09,280 --> 00:01:11,400
+lot maybe the most out of any of these
+
+32
+00:01:11,400 --> 00:01:14,320
+and yes it's basically generative AI to
+
+33
+00:01:14,320 --> 00:01:16,360
+help adjust what you've already written
+
+34
+00:01:16,360 --> 00:01:18,000
+so this is easiest to demo on the Mac
+
+35
+00:01:18,000 --> 00:01:19,640
+but basically you have something you've
+
+36
+00:01:19,640 --> 00:01:21,400
+written you highlight all of it and then
+
+37
+00:01:21,400 --> 00:01:23,000
+select one of the writing tools and
+
+38
+00:01:23,000 --> 00:01:24,479
+actually this is one of the first weird
+
+39
+00:01:24,479 --> 00:01:27,320
+hiccups just a strangely repetitive UI
+
+40
+00:01:27,320 --> 00:01:29,640
+you can access any of the writing tools
+
+41
+00:01:29,640 --> 00:01:32,520
+in one click right here or hit show
+
+42
+00:01:32,520 --> 00:01:36,200
+writing tools which again shows the same
+
+43
+00:01:36,200 --> 00:01:39,560
+list of writing tools okay so I suppose
+
+44
+00:01:39,560 --> 00:01:41,040
+there's a world where you know you write
+
+45
+00:01:41,040 --> 00:01:42,399
+some message to someone and you just
+
+46
+00:01:42,399 --> 00:01:44,479
+want it to be a little more friendly or
+
+47
+00:01:44,479 --> 00:01:45,680
+maybe you've typed out a bunch of stuff
+
+48
+00:01:45,680 --> 00:01:47,640
+that needs to be sent in a work email so
+
+49
+00:01:47,640 --> 00:01:49,640
+you want to get the AI to make it more
+
+50
+00:01:49,640 --> 00:01:52,399
+professional for you sure I guess so
+
+51
+00:01:52,399 --> 00:01:53,560
+I've run it through various things that
+
+52
+00:01:53,560 --> 00:01:55,159
+I've written from you know whole video
+
+53
+00:01:55,159 --> 00:01:58,119
+scripts to just a bunch of messages and
+
+54
+00:01:58,119 --> 00:02:00,560
+it works technically I think the the
+
+55
+00:02:00,560 --> 00:02:02,640
+friendly mode mostly uses like shorter
+
+56
+00:02:02,640 --> 00:02:05,159
+sentences and lots of exclamation points
+
+57
+00:02:05,159 --> 00:02:07,520
+and then the professional mode kind of
+
+58
+00:02:07,520 --> 00:02:09,038
+does the opposite like it's it's still
+
+59
+00:02:09,038 --> 00:02:10,840
+pretty tur but never uses exclamation
+
+60
+00:02:10,840 --> 00:02:12,680
+points I think maybe concise is the most
+
+61
+00:02:12,680 --> 00:02:14,040
+useful basically it takes whatever you
+
+62
+00:02:14,040 --> 00:02:16,920
+highlight and makes it maybe 40% shorter
+
+63
+00:02:16,920 --> 00:02:18,879
+and then you can hit copy or just
+
+64
+00:02:18,879 --> 00:02:20,840
+directly replace it if you trust it and
+
+65
+00:02:20,840 --> 00:02:23,080
+each of these things takes about 3 or 4
+
+66
+00:02:23,080 --> 00:02:25,519
+seconds to generate entirely on device
+
+67
+00:02:25,519 --> 00:02:27,400
+so it works offline as well the proof
+
+68
+00:02:27,400 --> 00:02:29,000
+reading is nice because it picks up on
+
+69
+00:02:29,000 --> 00:02:30,959
+extra things like capitalization and
+
+70
+00:02:30,959 --> 00:02:33,400
+proper nouns if you really need that on
+
+71
+00:02:33,400 --> 00:02:36,280
+top of the auto punctuation checker and
+
+72
+00:02:36,280 --> 00:02:40,040
+then summary or make table would be
+
+73
+00:02:40,040 --> 00:02:41,959
+really nice for like really large
+
+74
+00:02:41,959 --> 00:02:44,120
+documents but it doesn't seem to want to
+
+75
+00:02:44,120 --> 00:02:47,239
+work on some of my huge documents that
+
+76
+00:02:47,239 --> 00:02:49,120
+would be nice to summarize or make into
+
+77
+00:02:49,120 --> 00:02:52,200
+a table so unfortunately even as a
+
+78
+00:02:52,200 --> 00:02:53,879
+basically a professional writer at this
+
+79
+00:02:53,879 --> 00:02:56,599
+point I haven't gotten much use out of
+
+80
+00:02:56,599 --> 00:02:58,800
+writing tools at all so notification
+
+81
+00:02:58,800 --> 00:03:01,480
+summaries this one to me personally I
+
+82
+00:03:01,480 --> 00:03:04,159
+have found almost useless basically it
+
+83
+00:03:04,159 --> 00:03:05,799
+does exactly what it sounds like it does
+
+84
+00:03:05,799 --> 00:03:07,560
+when it's enabled it summarizes your
+
+85
+00:03:07,560 --> 00:03:09,879
+notifications from each app so if you
+
+86
+00:03:09,879 --> 00:03:12,040
+get a long message from someone or
+
+87
+00:03:12,040 --> 00:03:13,840
+several notifications in a row from a
+
+88
+00:03:13,840 --> 00:03:15,440
+single app it will do its best to
+
+89
+00:03:15,440 --> 00:03:17,239
+condense that all into a single message
+
+90
+00:03:17,239 --> 00:03:19,680
+to help you kind of get the gist quickly
+
+91
+00:03:19,680 --> 00:03:22,239
+so no matter how long or how short the
+
+92
+00:03:22,239 --> 00:03:24,360
+messages are whether it's just a text or
+
+93
+00:03:24,360 --> 00:03:26,159
+maybe a group chat has absolutely blown
+
+94
+00:03:26,159 --> 00:03:27,920
+up and you missed a 100 messages it's
+
+95
+00:03:27,920 --> 00:03:30,879
+going to try to summarize all that into
+
+96
+00:03:30,879 --> 00:03:33,000
+one or two lines the thing is once I
+
+97
+00:03:33,000 --> 00:03:35,200
+enable it and started using it it it
+
+98
+00:03:35,200 --> 00:03:36,680
+basically seems like the notifications
+
+99
+00:03:36,680 --> 00:03:38,480
+that I'm getting are almost never
+
+100
+00:03:38,480 --> 00:03:40,920
+benefited from being summarized or
+
+101
+00:03:40,920 --> 00:03:43,599
+shortened like I've never gotten four
+
+102
+00:03:43,599 --> 00:03:46,920
+text messages that are perfectly
+
+103
+00:03:46,920 --> 00:03:48,680
+summarized into a single one and I'm
+
+104
+00:03:48,680 --> 00:03:50,040
+sure it's possible there are going to be
+
+105
+00:03:50,040 --> 00:03:51,439
+some instances where it works for people
+
+106
+00:03:51,439 --> 00:03:53,360
+but it's not just me I've seen lots of
+
+107
+00:03:53,360 --> 00:03:54,760
+examples online and there's plenty of
+
+108
+00:03:54,760 --> 00:03:56,280
+memes too of Apple's notification
+
+109
+00:03:56,280 --> 00:03:58,680
+summaries doing some sometimes hilarious
+
+110
+00:03:58,680 --> 00:04:02,079
+work some BR stuff so it works and I
+
+111
+00:04:02,079 --> 00:04:03,280
+guess it's good for a laugh once in a
+
+112
+00:04:03,280 --> 00:04:05,400
+while but yeah this is a feature I
+
+113
+00:04:05,400 --> 00:04:08,760
+straight up turned off then gen mooji so
+
+114
+00:04:08,760 --> 00:04:11,040
+okay believe it or not there was some
+
+115
+00:04:11,040 --> 00:04:12,879
+hype for this one and once again it's
+
+116
+00:04:12,879 --> 00:04:14,599
+basically exactly what it sounds like
+
+117
+00:04:14,599 --> 00:04:18,040
+it's it's letting you generate any Emoji
+
+118
+00:04:18,040 --> 00:04:20,600
+using AI anything you want so let's say
+
+119
+00:04:20,600 --> 00:04:22,360
+I'm in messages and I want to react to
+
+120
+00:04:22,360 --> 00:04:25,320
+some message with a very specific emoji
+
+121
+00:04:25,320 --> 00:04:28,400
+that doesn't exist you would describe an
+
+122
+00:04:28,400 --> 00:04:31,199
+emoji so you write your text and then
+
+123
+00:04:31,199 --> 00:04:33,479
+hit create a new Emoji give it about 3
+
+124
+00:04:33,479 --> 00:04:35,720
+seconds again and it will use generative
+
+125
+00:04:35,720 --> 00:04:39,880
+AI to create that image for you that's
+
+126
+00:04:39,880 --> 00:04:42,440
+fun I guess and yes it will sometimes
+
+127
+00:04:42,440 --> 00:04:43,919
+refuse to make what you ask of it if you
+
+128
+00:04:43,919 --> 00:04:46,080
+ask for something like crazy or graphic
+
+129
+00:04:46,080 --> 00:04:47,440
+although it seems to have no problem
+
+130
+00:04:47,440 --> 00:04:49,880
+making a potato with a gun so that's an
+
+131
+00:04:49,880 --> 00:04:52,160
+emoji reaction you can send sick it's a
+
+132
+00:04:52,160 --> 00:04:53,800
+very specific use case there's no doubt
+
+133
+00:04:53,800 --> 00:04:54,919
+some people will have fun with it I just
+
+134
+00:04:54,919 --> 00:04:56,400
+think I'm not in the Target demographic
+
+135
+00:04:56,400 --> 00:04:58,479
+to use this sort of thing all the time
+
+136
+00:04:58,479 --> 00:05:01,919
+so again over my head cool it exists but
+
+137
+00:05:01,919 --> 00:05:04,240
+that's it so then image playground is
+
+138
+00:05:04,240 --> 00:05:06,199
+another maybe kind of weird one this is
+
+139
+00:05:06,199 --> 00:05:07,440
+almost the same tool but sort of
+
+140
+00:05:07,440 --> 00:05:10,160
+Standalone this is a playground to
+
+141
+00:05:10,160 --> 00:05:13,320
+generate images in a cartoon
+
+142
+00:05:13,320 --> 00:05:16,000
+style of whatever you want so you open
+
+143
+00:05:16,000 --> 00:05:18,240
+the playgrounds app and again just
+
+144
+00:05:18,240 --> 00:05:21,240
+describe the image you want in text
+
+145
+00:05:21,240 --> 00:05:23,360
+anything really but before you type
+
+146
+00:05:23,360 --> 00:05:24,840
+anything there are also a number of
+
+147
+00:05:24,840 --> 00:05:26,280
+these buttons down here and they're kind
+
+148
+00:05:26,280 --> 00:05:28,000
+of just inspiration suggestions for
+
+149
+00:05:28,000 --> 00:05:31,280
+things or people to include in the image
+
+150
+00:05:31,280 --> 00:05:34,400
+so yes you can choose any of the people
+
+151
+00:05:34,400 --> 00:05:35,880
+that your phone recognizes from your
+
+152
+00:05:35,880 --> 00:05:37,759
+photos app and that'll be the starting
+
+153
+00:05:37,759 --> 00:05:40,800
+point for the image and then add some
+
+154
+00:05:40,800 --> 00:05:43,000
+themes or accessories or background or
+
+155
+00:05:43,000 --> 00:05:45,800
+props or whatever on top of it so here's
+
+156
+00:05:45,800 --> 00:05:50,400
+me with a hard hat on at a disco and it
+
+157
+00:05:50,400 --> 00:05:52,280
+generates it again in a few seconds on
+
+158
+00:05:52,280 --> 00:05:54,759
+device always cartoon style never photo
+
+159
+00:05:54,759 --> 00:05:56,360
+realistic and it can give you a few
+
+160
+00:05:56,360 --> 00:05:58,039
+options to choose from and once you hit
+
+161
+00:05:58,039 --> 00:06:01,120
+done you can copy and paste that image
+
+162
+00:06:01,120 --> 00:06:03,720
+wherever you want Google and a few
+
+163
+00:06:03,720 --> 00:06:05,639
+others have this on their devices too
+
+164
+00:06:05,639 --> 00:06:08,080
+just sort of a playground to make some
+
+165
+00:06:08,080 --> 00:06:10,880
+artificially generated images again it's
+
+166
+00:06:10,880 --> 00:06:13,280
+of debatable usefulness of course it
+
+167
+00:06:13,280 --> 00:06:14,680
+makes sense that it won't do
+
+168
+00:06:14,680 --> 00:06:16,160
+photorealistic images because that would
+
+169
+00:06:16,160 --> 00:06:18,599
+open up a whole can of worms uh but it's
+
+170
+00:06:18,599 --> 00:06:20,960
+even supposed to not do some things that
+
+171
+00:06:20,960 --> 00:06:22,599
+could potentially be offensive again
+
+172
+00:06:22,599 --> 00:06:24,880
+like if you ask it for a gun it
+
+173
+00:06:24,880 --> 00:06:27,759
+typically refuses but I found if you add
+
+174
+00:06:27,759 --> 00:06:30,400
+a few more variables like a chef hat and
+
+175
+00:06:30,400 --> 00:06:32,720
+some fireworks to something then it will
+
+176
+00:06:32,720 --> 00:06:34,400
+be a little more likely to actually pull
+
+177
+00:06:34,400 --> 00:06:36,479
+through for you so yeah good thing it
+
+178
+00:06:36,479 --> 00:06:39,080
+says it's in beta and may create
+
+179
+00:06:39,080 --> 00:06:41,080
+unexpected results this is yet another
+
+180
+00:06:41,080 --> 00:06:43,319
+app that they've added to my phone that
+
+181
+00:06:43,319 --> 00:06:45,800
+I predict that I will probably never use
+
+182
+00:06:45,800 --> 00:06:47,919
+again after making this video so then
+
+183
+00:06:47,919 --> 00:06:50,960
+priority notifications so okay now this
+
+184
+00:06:50,960 --> 00:06:53,199
+is one that I think had some promise or
+
+185
+00:06:53,199 --> 00:06:54,639
+at least I'm in the Target demographic
+
+186
+00:06:54,639 --> 00:06:56,800
+for it because as an iPhone and Android
+
+187
+00:06:56,800 --> 00:06:58,639
+User you start to notice that Apple's
+
+188
+00:06:58,639 --> 00:07:00,520
+weakness has a long time than
+
+189
+00:07:00,520 --> 00:07:02,759
+notification management if it was just
+
+190
+00:07:02,759 --> 00:07:04,280
+kind of had a fire hose of notifications
+
+191
+00:07:04,280 --> 00:07:06,199
+coming in all the time so priority
+
+192
+00:07:06,199 --> 00:07:08,360
+notifications surfaces certain
+
+193
+00:07:08,360 --> 00:07:10,680
+notifications Above the Rest when you're
+
+194
+00:07:10,680 --> 00:07:12,000
+in a focus mode that reduces
+
+195
+00:07:12,000 --> 00:07:14,479
+notifications but this should also work
+
+196
+00:07:14,479 --> 00:07:17,280
+in the mail app to put AI identified
+
+197
+00:07:17,280 --> 00:07:19,160
+high priority messages up at the top
+
+198
+00:07:19,160 --> 00:07:21,520
+plus some other categories so if you use
+
+199
+00:07:21,520 --> 00:07:23,560
+the default mail app which I don't but a
+
+200
+00:07:23,560 --> 00:07:25,000
+lot of people do then this could be
+
+201
+00:07:25,000 --> 00:07:27,080
+helpful something Gmail has had for many
+
+202
+00:07:27,080 --> 00:07:29,520
+years and the reduced notifications mode
+
+203
+00:07:29,520 --> 00:07:31,240
+mod also specifically tries to do a good
+
+204
+00:07:31,240 --> 00:07:32,360
+job of only letting important
+
+205
+00:07:32,360 --> 00:07:34,039
+notifications through but keeping the
+
+206
+00:07:34,039 --> 00:07:38,560
+rest quiet so then the photos app uh yes
+
+207
+00:07:38,560 --> 00:07:41,280
+we all hate the new photos app everyone
+
+208
+00:07:41,280 --> 00:07:43,280
+you do I do everyone you know hates it
+
+209
+00:07:43,280 --> 00:07:45,479
+we're all on the same page it's terrible
+
+210
+00:07:45,479 --> 00:07:48,080
+but Apple has added exactly one AI
+
+211
+00:07:48,080 --> 00:07:51,039
+feature to the photos app and in an age
+
+212
+00:07:51,039 --> 00:07:52,639
+where lots of companies are comfortable
+
+213
+00:07:52,639 --> 00:07:54,800
+adding a ton of AI to their photos apps
+
+214
+00:07:54,800 --> 00:07:56,680
+dozens of things but they've decided all
+
+215
+00:07:56,680 --> 00:07:58,520
+right yeah we can do the background
+
+216
+00:07:58,520 --> 00:08:00,000
+object removal thing
+
+217
+00:08:00,000 --> 00:08:01,400
+we can do that so basically the same
+
+218
+00:08:01,400 --> 00:08:03,280
+thing as Google's Magic Eraser tool
+
+219
+00:08:03,280 --> 00:08:04,599
+let's say you've got a picture with a
+
+220
+00:08:04,599 --> 00:08:05,879
+subject in the front and you just want
+
+221
+00:08:05,879 --> 00:08:07,199
+to remove that annoying thing in the
+
+222
+00:08:07,199 --> 00:08:09,280
+background you hit the edit button and
+
+223
+00:08:09,280 --> 00:08:10,720
+then on the right side you hit the
+
+224
+00:08:10,720 --> 00:08:12,960
+cleanup tool and a lot of times it will
+
+225
+00:08:12,960 --> 00:08:14,360
+automatically highlight in this sort of
+
+226
+00:08:14,360 --> 00:08:16,319
+rainbow glow the thing that it auto
+
+227
+00:08:16,319 --> 00:08:18,440
+detects that you want to remove but if
+
+228
+00:08:18,440 --> 00:08:19,919
+it doesn't you can just tap or Circle
+
+229
+00:08:19,919 --> 00:08:21,240
+whatever you want and it takes a few
+
+230
+00:08:21,240 --> 00:08:23,240
+seconds and then it just gets rid of it
+
+231
+00:08:23,240 --> 00:08:25,080
+and use a generative fill to fill in the
+
+232
+00:08:25,080 --> 00:08:26,400
+background and of course some scenes
+
+233
+00:08:26,400 --> 00:08:27,639
+work better than others it's kind of the
+
+234
+00:08:27,639 --> 00:08:29,639
+same deal as Magic Eraser or photoshop
+
+235
+00:08:29,639 --> 00:08:31,440
+typically patterns or repeating
+
+236
+00:08:31,440 --> 00:08:32,559
+backgrounds will give you the best
+
+237
+00:08:32,559 --> 00:08:34,279
+results I'm going to say I actually
+
+238
+00:08:34,279 --> 00:08:35,839
+think this one works better than Google
+
+239
+00:08:35,839 --> 00:08:38,240
+it's better at getting a good outline of
+
+240
+00:08:38,240 --> 00:08:39,919
+the photob bomber or the background
+
+241
+00:08:39,919 --> 00:08:42,360
+object in a single gesture which is nice
+
+242
+00:08:42,360 --> 00:08:45,279
+it's really smart so to me this is also
+
+243
+00:08:45,279 --> 00:08:47,120
+one of the more useful features
+
+244
+00:08:47,120 --> 00:08:49,600
+recording summaries so okay this one had
+
+245
+00:08:49,600 --> 00:08:51,080
+promise but then was kind of confusing
+
+246
+00:08:51,080 --> 00:08:52,720
+to me because when I saw it on the list
+
+247
+00:08:52,720 --> 00:08:54,240
+I was like oh this I would have loved
+
+248
+00:08:54,240 --> 00:08:55,880
+this as a student this is amazing just
+
+249
+00:08:55,880 --> 00:08:58,160
+one place where you can record things
+
+250
+00:08:58,160 --> 00:09:00,519
+transcribe them and then summarize them
+
+251
+00:09:00,519 --> 00:09:02,720
+and keep them for later that sounds
+
+252
+00:09:02,720 --> 00:09:06,320
+amazing but this is not built into the
+
+253
+00:09:06,320 --> 00:09:08,760
+default voice memos app at all so if
+
+254
+00:09:08,760 --> 00:09:10,760
+you're on a phone call you can turn on
+
+255
+00:09:10,760 --> 00:09:11,920
+call recording you hit that little
+
+256
+00:09:11,920 --> 00:09:13,519
+button down there it'll take a second
+
+257
+00:09:13,519 --> 00:09:15,000
+it'll warn the person that you're on the
+
+258
+00:09:15,000 --> 00:09:16,920
+phone with with a little message this
+
+259
+00:09:16,920 --> 00:09:19,160
+call will be recorded and then from
+
+260
+00:09:19,160 --> 00:09:20,760
+there it'll record everything that gets
+
+261
+00:09:20,760 --> 00:09:22,839
+said and transcribe it and the
+
+262
+00:09:22,839 --> 00:09:25,000
+transcriptions are amazing it identifies
+
+263
+00:09:25,000 --> 00:09:28,240
+each speaker it is accurate I love this
+
+264
+00:09:28,240 --> 00:09:29,920
+part but then if you care about the
+
+265
+00:09:29,920 --> 00:09:32,279
+summary part this is where it starts to
+
+266
+00:09:32,279 --> 00:09:33,720
+get weird again because you go into the
+
+267
+00:09:33,720 --> 00:09:35,040
+notes app this is where it's saving
+
+268
+00:09:35,040 --> 00:09:38,120
+everything and it shows up as a new note
+
+269
+00:09:38,120 --> 00:09:40,279
+and the preview actually summarizes it
+
+270
+00:09:40,279 --> 00:09:41,760
+right here pretty well but then when you
+
+271
+00:09:41,760 --> 00:09:44,000
+click in there's a whole transcript
+
+272
+00:09:44,000 --> 00:09:46,160
+great and then there's another summary
+
+273
+00:09:46,160 --> 00:09:48,880
+button up here at the top you hit that
+
+274
+00:09:48,880 --> 00:09:51,519
+and there's a different summary uh and
+
+275
+00:09:51,519 --> 00:09:53,880
+this one's a little worse the first one
+
+276
+00:09:53,880 --> 00:09:55,399
+back in the preview actually picked up
+
+277
+00:09:55,399 --> 00:09:57,240
+and included that I said Ridge wallet
+
+278
+00:09:57,240 --> 00:09:59,079
+the second one didn't get that at all
+
+279
+00:09:59,079 --> 00:10:01,959
+but did get best bu interesting but
+
+280
+00:10:01,959 --> 00:10:03,519
+Apple why don't you bring this to The
+
+281
+00:10:03,519 --> 00:10:05,720
+Voice Memos app this is I I want to be
+
+282
+00:10:05,720 --> 00:10:07,640
+able to sit this down in a lecture or a
+
+283
+00:10:07,640 --> 00:10:09,079
+meeting and have it record things so I
+
+284
+00:10:09,079 --> 00:10:10,399
+can summarize them later that's like the
+
+285
+00:10:10,399 --> 00:10:11,959
+main place I figured this would be
+
+286
+00:10:11,959 --> 00:10:14,680
+useful but it's not there so please
+
+287
+00:10:14,680 --> 00:10:16,360
+please the only way to initiate this
+
+288
+00:10:16,360 --> 00:10:18,279
+right now is actually to go through the
+
+289
+00:10:18,279 --> 00:10:20,480
+notes app to create a new note and then
+
+290
+00:10:20,480 --> 00:10:23,079
+attach and then create a new recording
+
+291
+00:10:23,079 --> 00:10:25,680
+and then record your audio into there
+
+292
+00:10:25,680 --> 00:10:27,720
+but it just feels like it could be one
+
+293
+00:10:27,720 --> 00:10:29,640
+step easier so okay visual visual
+
+294
+00:10:29,640 --> 00:10:31,440
+intelligence so these last two are kind
+
+295
+00:10:31,440 --> 00:10:33,120
+of the big ones visual intelligence is
+
+296
+00:10:33,120 --> 00:10:35,839
+only available on the iPhone 16 and 16
+
+297
+00:10:35,839 --> 00:10:38,079
+Pro and you get to it by long pressing
+
+298
+00:10:38,079 --> 00:10:39,639
+that button on the side of those new
+
+299
+00:10:39,639 --> 00:10:41,720
+phones which opens it up it's that
+
+300
+00:10:41,720 --> 00:10:43,320
+camera control button and when you open
+
+301
+00:10:43,320 --> 00:10:45,160
+it up you get a full screen viewfinder
+
+302
+00:10:45,160 --> 00:10:47,240
+with three buttons a shutter in the
+
+303
+00:10:47,240 --> 00:10:50,720
+middle then ask on the left and search
+
+304
+00:10:50,720 --> 00:10:52,600
+on the right so if you point this at any
+
+305
+00:10:52,600 --> 00:10:54,839
+object or subject and you hit ask that
+
+306
+00:10:54,839 --> 00:10:57,320
+lets you ask chat GPT anything about
+
+307
+00:10:57,320 --> 00:11:00,079
+what it sees and if you hit SE search
+
+308
+00:11:00,079 --> 00:11:01,480
+then it's basically just reverse Google
+
+309
+00:11:01,480 --> 00:11:03,600
+image searching whatever it sees so chat
+
+310
+00:11:03,600 --> 00:11:06,240
+gbt or Google so if you hit the shutter
+
+311
+00:11:06,240 --> 00:11:08,519
+button it snaps a photo and then
+
+312
+00:11:08,519 --> 00:11:12,000
+continues to give you those two items or
+
+313
+00:11:12,000 --> 00:11:16,320
+a popup menu where you can again either
+
+314
+00:11:16,320 --> 00:11:19,079
+search or ask again pretty repetitive if
+
+315
+00:11:19,079 --> 00:11:21,320
+you ask me but okay while this is a very
+
+316
+00:11:21,320 --> 00:11:24,399
+pretty UI and it works pretty quickly it
+
+317
+00:11:24,399 --> 00:11:25,560
+also isn't anything you know
+
+318
+00:11:25,560 --> 00:11:26,920
+particularly new that we haven't seen
+
+319
+00:11:26,920 --> 00:11:28,440
+before like I was just watching my
+
+320
+00:11:28,440 --> 00:11:31,040
+Galaxy S8 review from back in 2017 where
+
+321
+00:11:31,040 --> 00:11:32,680
+I do a demo of the exact same thing I
+
+322
+00:11:32,680 --> 00:11:33,839
+take a picture of something in front of
+
+323
+00:11:33,839 --> 00:11:36,440
+me it looks it up with Bixby Ai and it
+
+324
+00:11:36,440 --> 00:11:38,519
+could tell you if it was a landmark or a
+
+325
+00:11:38,519 --> 00:11:40,639
+product that you could shop for this is
+
+326
+00:11:40,639 --> 00:11:42,839
+going to be more capable obviously chat
+
+327
+00:11:42,839 --> 00:11:45,600
+GPT has a lot more capabilities and
+
+328
+00:11:45,600 --> 00:11:47,120
+maybe even a little bit more trust these
+
+329
+00:11:47,120 --> 00:11:49,360
+days than Bixby had back then and it's
+
+330
+00:11:49,360 --> 00:11:52,120
+certainly more well integrated but yeah
+
+331
+00:11:52,120 --> 00:11:53,720
+so it's not something mind-blowing or
+
+332
+00:11:53,720 --> 00:11:56,399
+groundbreakingly new but it is ideally
+
+333
+00:11:56,399 --> 00:11:58,079
+more accurate and more capable than
+
+334
+00:11:58,079 --> 00:11:59,320
+before maybe they're going to continue
+
+335
+00:11:59,320 --> 00:12:00,760
+to build on top of this in the future
+
+336
+00:12:00,760 --> 00:12:03,360
+but then there is chat GPT integration
+
+337
+00:12:03,360 --> 00:12:05,240
+the sort of last but not least new thing
+
+338
+00:12:05,240 --> 00:12:07,959
+that Siri works with chat GPT I think a
+
+339
+00:12:07,959 --> 00:12:09,079
+lot of people thought there was a lot
+
+340
+00:12:09,079 --> 00:12:10,560
+more to Siri like right off the bat
+
+341
+00:12:10,560 --> 00:12:12,200
+because it has this new animation and
+
+342
+00:12:12,200 --> 00:12:14,160
+you see the new Siri animation so you
+
+343
+00:12:14,160 --> 00:12:17,120
+think it's the new Siri but most of the
+
+344
+00:12:17,120 --> 00:12:19,560
+new Siri stuff isn't here yet but the
+
+345
+00:12:19,560 --> 00:12:21,360
+chat GPT stuff is so if you ever make a
+
+346
+00:12:21,360 --> 00:12:24,079
+request or ask a question that's out of
+
+347
+00:12:24,079 --> 00:12:27,600
+the normal scope of Siri maybe ask for a
+
+348
+00:12:27,600 --> 00:12:29,720
+recipe or you ask for it to make a trip
+
+349
+00:12:29,720 --> 00:12:32,120
+itinerary or something big then it
+
+350
+00:12:32,120 --> 00:12:33,800
+recognizes it and it can prompt you if
+
+351
+00:12:33,800 --> 00:12:36,720
+you want to ask chat GPT instead and if
+
+352
+00:12:36,720 --> 00:12:38,880
+you confirm then it pulls from chat GPT
+
+353
+00:12:38,880 --> 00:12:41,600
+to respond uh this is all free you don't
+
+354
+00:12:41,600 --> 00:12:43,639
+need an account for this Apple has
+
+355
+00:12:43,639 --> 00:12:45,440
+promised all sorts of masking so your
+
+356
+00:12:45,440 --> 00:12:47,600
+data is not used for training models
+
+357
+00:12:47,600 --> 00:12:49,199
+open AI doesn't get to collect any of
+
+358
+00:12:49,199 --> 00:12:50,800
+this information about you through the
+
+359
+00:12:50,800 --> 00:12:54,519
+requests but you can also sign into your
+
+360
+00:12:54,519 --> 00:12:57,040
+chat GPT account if you want to keep a
+
+361
+00:12:57,040 --> 00:12:58,760
+history of your queries or use higher
+
+362
+00:12:58,760 --> 00:12:59,680
+end model
+
+363
+00:12:59,680 --> 00:13:01,279
+or even go over the daily limit of free
+
+364
+00:13:01,279 --> 00:13:03,519
+queries there's even actually a button
+
+365
+00:13:03,519 --> 00:13:06,519
+to upgrade to chat GPT plus built into
+
+366
+00:13:06,519 --> 00:13:09,480
+iOS now so it's pretty well considered
+
+367
+00:13:09,480 --> 00:13:10,959
+so yeah the new Siri animation might be
+
+368
+00:13:10,959 --> 00:13:12,760
+fooling some people but really it's
+
+369
+00:13:12,760 --> 00:13:14,120
+other than being able to type to Siri
+
+370
+00:13:14,120 --> 00:13:15,320
+more easily there's really not a whole
+
+371
+00:13:15,320 --> 00:13:18,160
+lot actually new yet with Siri but that
+
+372
+00:13:18,160 --> 00:13:21,360
+brings me to the rest of the things that
+
+373
+00:13:21,360 --> 00:13:24,399
+aren't here yet still that are coming
+
+374
+00:13:24,399 --> 00:13:27,360
+soon with software updates that list is
+
+375
+00:13:27,360 --> 00:13:29,120
+right here there are more Apple int
+
+376
+00:13:29,120 --> 00:13:32,079
+elligence features that are in the works
+
+377
+00:13:32,079 --> 00:13:34,000
+coming soon and honestly Siri is the
+
+378
+00:13:34,000 --> 00:13:35,959
+main one I'm interested in because it's
+
+379
+00:13:35,959 --> 00:13:38,240
+supposed to be able to take inapp
+
+380
+00:13:38,240 --> 00:13:39,880
+actions it should be able to reach into
+
+381
+00:13:39,880 --> 00:13:42,560
+Apps and take action inside of them
+
+382
+00:13:42,560 --> 00:13:45,720
+which I think could be awesome I think
+
+383
+00:13:45,720 --> 00:13:48,040
+developers could all update their apps
+
+384
+00:13:48,040 --> 00:13:49,519
+to work really well with it and it could
+
+385
+00:13:49,519 --> 00:13:51,160
+be really useful it could differentiate
+
+386
+00:13:51,160 --> 00:13:55,079
+Siri to actually make it useful again um
+
+387
+00:13:55,079 --> 00:13:56,480
+but yeah that's still coming but yeah
+
+388
+00:13:56,480 --> 00:13:58,480
+then from there my take is the rest of
+
+389
+00:13:58,480 --> 00:14:03,720
+the AI stuff really not super amazing or
+
+390
+00:14:03,720 --> 00:14:06,240
+compelling to me just to be real like
+
+391
+00:14:06,240 --> 00:14:08,600
+the writing tools that seems like a nice
+
+392
+00:14:08,600 --> 00:14:10,399
+safe use of generative AI that's the
+
+393
+00:14:10,399 --> 00:14:12,040
+thing they're sort of talking about the
+
+394
+00:14:12,040 --> 00:14:14,519
+most but I don't even find myself
+
+395
+00:14:14,519 --> 00:14:18,040
+needing to rewrite things that often and
+
+396
+00:14:18,040 --> 00:14:19,040
+like I said I'm not in the Target
+
+397
+00:14:19,040 --> 00:14:20,720
+demographic to use the image playgrounds
+
+398
+00:14:20,720 --> 00:14:22,880
+all that much or gen Emojis all the time
+
+399
+00:14:22,880 --> 00:14:24,240
+the visual intelligence is definitely
+
+400
+00:14:24,240 --> 00:14:26,600
+super useful like three or four times a
+
+401
+00:14:26,600 --> 00:14:28,320
+year for me like when some interesting
+
+402
+00:14:28,320 --> 00:14:30,279
+plant or dog or whatever is in front of
+
+403
+00:14:30,279 --> 00:14:31,639
+me and I want to just figure out what it
+
+404
+00:14:31,639 --> 00:14:33,000
+is but that's actually funny you
+
+405
+00:14:33,000 --> 00:14:34,959
+remember the the clip from the Apple
+
+406
+00:14:34,959 --> 00:14:38,040
+keynote of that person who walks up to a
+
+407
+00:14:38,040 --> 00:14:39,680
+dog and instead of asking the person
+
+408
+00:14:39,680 --> 00:14:41,519
+walking the dog what kind of dog it is
+
+409
+00:14:41,519 --> 00:14:42,759
+they just go hey can I take a picture of
+
+410
+00:14:42,759 --> 00:14:44,320
+your dog and then they ask the phone
+
+411
+00:14:44,320 --> 00:14:45,959
+what kind of dog it is instead of just
+
+412
+00:14:45,959 --> 00:14:47,839
+asking the person and that to me is the
+
+413
+00:14:47,839 --> 00:14:49,480
+perfect encapsulation of so many of
+
+414
+00:14:49,480 --> 00:14:51,519
+these Apple intelligence features you
+
+415
+00:14:51,519 --> 00:14:53,519
+could use them and they might work
+
+416
+00:14:53,519 --> 00:14:56,920
+really well but should you should you
+
+417
+00:14:56,920 --> 00:14:58,800
+like you can ask for a more friendly
+
+418
+00:14:58,800 --> 00:15:00,079
+version version of this letter to send
+
+419
+00:15:00,079 --> 00:15:01,120
+to your
+
+420
+00:15:01,120 --> 00:15:04,320
+friend or you could try to write it in a
+
+421
+00:15:04,320 --> 00:15:06,279
+friendly way in the first place
+
+422
+00:15:06,279 --> 00:15:09,759
+like like you can ask Chachi PT to plan
+
+423
+00:15:09,759 --> 00:15:11,560
+a whole trip for you with an itinerary
+
+424
+00:15:11,560 --> 00:15:13,440
+and everything and honestly it's really
+
+425
+00:15:13,440 --> 00:15:16,680
+impressive when it works but are you
+
+426
+00:15:16,680 --> 00:15:18,880
+actually going to just go in blind and
+
+427
+00:15:18,880 --> 00:15:21,600
+just follow the AI generated itinerary
+
+428
+00:15:21,600 --> 00:15:23,480
+if you even like packing like I know
+
+429
+00:15:23,480 --> 00:15:25,440
+there's two types of people when packing
+
+430
+00:15:25,440 --> 00:15:26,920
+maybe some people will just follow the
+
+431
+00:15:26,920 --> 00:15:29,440
+AI generated prompt but I feel like I'm
+
+432
+00:15:29,440 --> 00:15:31,399
+in the type that kind of wants a little
+
+433
+00:15:31,399 --> 00:15:33,680
+bit more than that I think luckily no
+
+434
+00:15:33,680 --> 00:15:35,720
+matter what I'm packing it always fits
+
+435
+00:15:35,720 --> 00:15:37,560
+in my Ridge travel gear so shout out to
+
+436
+00:15:37,560 --> 00:15:39,319
+Ridge for sponsoring this portion of the
+
+437
+00:15:39,319 --> 00:15:41,959
+video specifically I helped design the
+
+438
+00:15:41,959 --> 00:15:43,880
+new commuter bag for Ridge and I
+
+439
+00:15:43,880 --> 00:15:44,800
+actually I've been dailying this
+
+440
+00:15:44,800 --> 00:15:46,440
+creation for the past couple months we
+
+441
+00:15:46,440 --> 00:15:47,839
+got it some really good water bottle
+
+442
+00:15:47,839 --> 00:15:49,680
+holders on the sides now and I also
+
+443
+00:15:49,680 --> 00:15:51,360
+added a tablet sleeve in the back so if
+
+444
+00:15:51,360 --> 00:15:53,399
+you've got a tablet and a laptop they
+
+445
+00:15:53,399 --> 00:15:55,360
+both have their own padded slot and then
+
+446
+00:15:55,360 --> 00:15:57,519
+I double down when I'm flying because I
+
+447
+00:15:57,519 --> 00:16:00,240
+also have the ridge c car on which is
+
+448
+00:16:00,240 --> 00:16:02,440
+basically perfect it's weatherproof it's
+
+449
+00:16:02,440 --> 00:16:04,160
+rugged it's got you know these aluminum
+
+450
+00:16:04,160 --> 00:16:06,519
+corner protectors it also has the 360
+
+451
+00:16:06,519 --> 00:16:08,319
+spinning wheels they're super smooth of
+
+452
+00:16:08,319 --> 00:16:10,040
+course it has a slot for a Tracker in
+
+453
+00:16:10,040 --> 00:16:12,000
+case it's ever separated from you it's
+
+454
+00:16:12,000 --> 00:16:14,480
+incredibly lightweight it's the go-to
+
+455
+00:16:14,480 --> 00:16:15,920
+and you already know that they work
+
+456
+00:16:15,920 --> 00:16:17,319
+perfectly together like a little
+
+457
+00:16:17,319 --> 00:16:19,199
+ecosystem to create a perfect little
+
+458
+00:16:19,199 --> 00:16:20,880
+travel combo so shout out to Ridge for
+
+459
+00:16:20,880 --> 00:16:22,240
+sponsoring this portion of the video and
+
+460
+00:16:22,240 --> 00:16:24,639
+for letting me design some of these
+
+461
+00:16:24,639 --> 00:16:26,880
+products and some more that are upcoming
+
+462
+00:16:26,880 --> 00:16:29,440
+so you have to stay tuned for those uh
+
+463
+00:16:29,440 --> 00:16:30,759
+but if you want to pick up both the
+
+464
+00:16:30,759 --> 00:16:32,279
+carry-on and the backpack you can get
+
+465
+00:16:32,279 --> 00:16:35,319
+them together at ridge.com MKBHD and get
+
+466
+00:16:35,319 --> 00:16:36,920
+30% off and they also have their Black
+
+467
+00:16:36,920 --> 00:16:38,399
+Friday sell going on right now but yeah
+
+468
+00:16:38,399 --> 00:16:41,519
+I think apple is going to build on and
+
+469
+00:16:41,519 --> 00:16:43,880
+sort of iterate on hopefully all of
+
+470
+00:16:43,880 --> 00:16:45,600
+these features like we have the sort of
+
+471
+00:16:45,600 --> 00:16:47,519
+standard set that we're expecting from
+
+472
+00:16:47,519 --> 00:16:49,720
+them now and this is this is the worst
+
+473
+00:16:49,720 --> 00:16:51,160
+they'll ever be they will only get
+
+474
+00:16:51,160 --> 00:16:52,720
+better from here but it is pretty crazy
+
+475
+00:16:52,720 --> 00:16:55,639
+to see how much emphasis is in all of
+
+476
+00:16:55,639 --> 00:16:58,399
+the advertising and all the talk about
+
+477
+00:16:58,399 --> 00:17:00,720
+the newest devices on apple.com as if
+
+478
+00:17:00,720 --> 00:17:03,319
+Apple intelligence is this massive
+
+479
+00:17:03,319 --> 00:17:05,839
+gamechanging groundbreaking new thing
+
+480
+00:17:05,839 --> 00:17:07,319
+you know there are parts of it that are
+
+481
+00:17:07,319 --> 00:17:09,439
+really good I think the background
+
+482
+00:17:09,439 --> 00:17:12,280
+eraser tool in photos is probably the
+
+483
+00:17:12,280 --> 00:17:13,480
+best we've seen it's better than
+
+484
+00:17:13,480 --> 00:17:16,000
+Google's it's really impressive I think
+
+485
+00:17:16,000 --> 00:17:17,599
+the visual intelligence stuff has
+
+486
+00:17:17,599 --> 00:17:20,319
+potential to be really good but honestly
+
+487
+00:17:20,319 --> 00:17:21,720
+the best thing I think we've gotten from
+
+488
+00:17:21,720 --> 00:17:23,559
+Apple intelligence cuz all the stuff is
+
+489
+00:17:23,559 --> 00:17:25,799
+running on device is bumping up the base
+
+490
+00:17:25,799 --> 00:17:28,039
+memory in everything there's more RAM in
+
+491
+00:17:28,039 --> 00:17:30,480
+every iPhone now and the base memory on
+
+492
+00:17:30,480 --> 00:17:32,840
+every Mac is 16 gigs now which made the
+
+493
+00:17:32,840 --> 00:17:35,919
+base Mac Mini an incredible deal so
+
+494
+00:17:35,919 --> 00:17:38,160
+shout out to Apple intelligence for that
+
+495
+00:17:38,160 --> 00:17:40,799
+either way hopefully a lot more coming
+
+496
+00:17:40,799 --> 00:17:42,679
+thanks for watching catch you guys in
+
+497
+00:17:42,679 --> 00:17:45,540
+the next one peace
+
+498
+00:17:45,540 --> 00:17:49,260
+[Music]
+
