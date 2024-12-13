@@ -25,8 +25,8 @@ for path in subtitle_paths:
             vector = model.encode(content)  # 计算字幕向量
 
             all_entries.append({
-                'file': os.path.basename(path),
-                'id': subtitle_id,
+                'video_name': os.path.basename(path),
+                'subtitle_id': subtitle_id,
                 'start_time': start_time,
                 'end_time': end_time,
                 'content': content,
@@ -38,10 +38,10 @@ sql_statements = []
 for entry in all_entries:
     vector_str = ','.join(map(str, entry['vector']))  # 将向量转化为字符串
     sql = f"""
-    INSERT INTO subtitles (file, id, start_time, end_time, content, vector)
+    INSERT INTO subtitles (video_name, subtitle_id, start_time, end_time, content, vector)
     VALUES (
-        '{entry['file']}',
-        {entry['id']},
+        '{entry['video_name'].replace(".srt", "")}',
+        {entry['subtitle_id']},
         {entry['start_time']},
         {entry['end_time']},
         '{entry['content'].replace("'", "''")}',
